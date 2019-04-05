@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-VolumetricClouds.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"F:\git\CloudSailing\CloudSailing\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
-"F:\git\CloudSailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Module.VolumetricClouds.cpp.obj"
-"F:\git\CloudSailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Module.VolumetricClouds.gen.cpp.obj"
-"F:\git\CloudSailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Default.rc2.res"
-/OUT:"F:\git\CloudSailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\UE4Editor-VolumetricClouds.lib"
+"D:\cloud-sailing\CloudSailing\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\cloud-sailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Module.VolumetricClouds.cpp.obj"
+"D:\cloud-sailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Module.VolumetricClouds.gen.cpp.obj"
+"D:\cloud-sailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\Default.rc2.res"
+/OUT:"D:\cloud-sailing\CloudSailing\Plugins\VolumetricClouds\Intermediate\Build\Win64\UE4Editor\Development\VolumetricClouds\UE4Editor-VolumetricClouds.lib"
 /INCLUDE:IMPLEMENT_MODULE_VolumetricClouds

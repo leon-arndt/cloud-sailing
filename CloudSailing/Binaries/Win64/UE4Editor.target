@@ -1832,6 +1832,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AutomationDriver.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ShaderFormatVectorVM.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1845,10 +1849,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-TextureFormatAndroid.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-AutomationDriver.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1868,11 +1868,11 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ClientPilot.dll",
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-CEF3Utils.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-CEF3Utils.dll",
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-ClientPilot.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1905,6 +1905,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-LocalFileNetworkReplayStreaming.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SaveGameNetworkReplayStreaming.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1941,10 +1945,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-WebBrowserTexture.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-SaveGameNetworkReplayStreaming.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2246,14 +2246,6 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapScreens/Binaries/Win64/UE4Editor-MagicLeapScreens.dll",
 			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/NotYetEditorMode/Binaries/Win64/UE4Editor-NotYetEditorMode.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/NotYetEditorMode/Binaries/Win64/UE4Editor-NotYetEditorMode.pdb",
-			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Media/AndroidCamera/Binaries/Win64/UE4Editor-AndroidCameraEditor.dll",
@@ -3229,10 +3221,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapScreens/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/NotYetEditorMode/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
