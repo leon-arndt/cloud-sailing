@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F4C693C-4581-472C-A712-37678DCB42A8}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="c_magpie" ID="{5F4C693C-4581-472C-A712-37678DCB42A8}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="c_magpie" ID="{55B0A6A8-D38C-4BD2-925A-633CDB7C6163}" ShortID="689792229">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{CB944CF2-FAD2-4F72-8025-1637848C9C73}" ShortID="351644782" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="c_magpie_voc" ID="{4A6A08F9-407E-43BC-86C4-642C294C881C}" ShortID="287508277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="c_magpie_voc_idle" ID="{C507A5BA-FBFB-48AD-AEBD-366881BDEB6F}" ShortID="855258803">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="c_magpie_voc_idle" ID="{8304AF61-C120-49AD-82D3-8B3C07D8C3C8}" ShortID="391856942">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0EC63B3A-B20E-473A-B9F4-325C880A012E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F6CDD6CF-C241-45BF-9CB3-692FE81D2BEB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-0.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9776522A-110F-46E9-A60B-A2E9CAA32438}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="c_magpie_voc_idle_01" ID="{22570A07-AD2C-4D57-806F-5240DD5DE8B4}" ShortID="193551549">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="AttachableMixerInput">
+															<Custom>
+																<Effect Name="Oculus Spatializer (Attached)" ID="{7BD88878-DC95-404E-A6D9-382639C934D8}" ShortID="686835807" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_011" ID="{E5015BA2-B8E2-40F4-BC3C-451CFDEBBCEF}" ShortID="96764349">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_011.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_011" ID="{E5015BA2-B8E2-40F4-BC3C-451CFDEBBCEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_02" ID="{38DF1C66-677C-472D-86F2-6F8603B62511}" ShortID="619465004">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_022" ID="{A7AEA9F5-7164-42EC-A72E-51609837A540}" ShortID="876056087">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_022.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_022" ID="{A7AEA9F5-7164-42EC-A72E-51609837A540}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_03" ID="{E4CB38EC-22F7-45EF-9758-2D63AE714D9F}" ShortID="715383552">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_033" ID="{6E5606AE-F7E4-45AE-9CA1-878D1132A319}" ShortID="134386206">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_033.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_033" ID="{6E5606AE-F7E4-45AE-9CA1-878D1132A319}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_04" ID="{FB691074-4A83-4387-8A26-55A566806AD7}" ShortID="973484980">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_044" ID="{60837571-AE96-4052-8D25-4C755DF0A772}" ShortID="974049104">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_044.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_044" ID="{60837571-AE96-4052-8D25-4C755DF0A772}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_05" ID="{C5FE81BE-248F-4486-8979-2DD3CEE28670}" ShortID="626659067">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_055" ID="{2EAF212F-8276-47FF-A372-A4C074DF59DB}" ShortID="934476241">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_055.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_055" ID="{2EAF212F-8276-47FF-A372-A4C074DF59DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_06" ID="{24E8836A-6958-4C48-A9BA-4570D538AE76}" ShortID="532693853">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_066" ID="{14759EDE-5B67-42FF-ADF9-48FDD18B5D34}" ShortID="875716566">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_066.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_066" ID="{14759EDE-5B67-42FF-ADF9-48FDD18B5D34}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_07" ID="{71A91531-80F9-4C68-ABD1-45DD31D9CDD4}" ShortID="932555376">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_077" ID="{929F373E-AEDA-400C-968D-885F93BFD8E2}" ShortID="842887804">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_077.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_077" ID="{929F373E-AEDA-400C-968D-885F93BFD8E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_08" ID="{73F9A1FF-12AE-47CB-AD26-473C52D7D04E}" ShortID="273107795">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_088" ID="{1026B3CE-572A-488A-9846-FE6F5B1D9B19}" ShortID="354259642">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_088.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_088" ID="{1026B3CE-572A-488A-9846-FE6F5B1D9B19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_09" ID="{5D30718F-E159-46B0-B34C-4586AE38F7FB}" ShortID="618133448">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_099" ID="{2F9E824F-23E7-4E6B-B5DB-7C1F44C93A64}" ShortID="498818189">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_099.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_099" ID="{2F9E824F-23E7-4E6B-B5DB-7C1F44C93A64}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_10" ID="{34BD3E0D-6132-4A39-A235-56F72C340D50}" ShortID="930784485">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_1010" ID="{E692D19A-0580-4C06-96A5-811808730B7C}" ShortID="809484908">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_1010.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_1010" ID="{E692D19A-0580-4C06-96A5-811808730B7C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_11" ID="{A073ABE1-15DA-40AB-8C3B-B01E33CAF85B}" ShortID="367551553">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_1111" ID="{0D624BA0-EABC-4A4B-9518-2D4C13BB7270}" ShortID="156431887">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_1111.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_1111" ID="{0D624BA0-EABC-4A4B-9518-2D4C13BB7270}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_12" ID="{842E5179-76F5-41CE-886E-34DC61E72C29}" ShortID="472719782">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_1212" ID="{C90789CA-D9F1-4162-959F-4633830F31ED}" ShortID="185198607">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_1212.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_1212" ID="{C90789CA-D9F1-4162-959F-4633830F31ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="c_magpie_voc_idle_cry" ID="{BCAFBFA1-CD56-47C1-BDE1-AF455CBF7868}" ShortID="723321177">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B05AF9A8-0C0A-410C-A9BA-5C9CD3EDBB05}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-100</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D87C289C-2F38-4DD9-9CEC-526F0A577AD0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{21D1267E-3033-405E-B204-274F5D619DF8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4.5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A349B550-0801-4D9E-AE2F-1337FAB6E13C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="c_magpie_voc_idle_cry_01" ID="{32FCAA6A-EFCD-4447-9917-591A9A8E5C9C}" ShortID="679931117">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="AttachableMixerInput">
+															<Custom>
+																<Effect Name="Oculus Spatializer (Attached)" ID="{BA01ED8C-3E5C-4F10-B83F-95BC5AE5F912}" ShortID="678302087" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_cry_01" ID="{66C42027-AF80-4C07-BAA0-08A1391560DD}" ShortID="630789538">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_cry_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_cry_01" ID="{66C42027-AF80-4C07-BAA0-08A1391560DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_cry_02" ID="{539C08E1-2362-4557-92C4-E72315AD1378}" ShortID="595434240">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_cry_02" ID="{740B9C98-9CB8-450B-A55E-11AAACF70D1D}" ShortID="580422450">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_cry_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_cry_02" ID="{740B9C98-9CB8-450B-A55E-11AAACF70D1D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_cry_03" ID="{C96AF4B1-F49B-4992-9D50-DE67624514E0}" ShortID="207459562">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_cry_03" ID="{E6A30421-3359-4D27-959D-712EACE25F3A}" ShortID="955300089">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_cry_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_cry_03" ID="{E6A30421-3359-4D27-959D-712EACE25F3A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_cry_04" ID="{73DA1775-A0E7-4A30-8487-222EB7E9FC80}" ShortID="457422173">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_cry_04" ID="{720DC898-1651-4306-BBAA-90C39730AFBB}" ShortID="114135279">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_cry_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_cry_04" ID="{720DC898-1651-4306-BBAA-90C39730AFBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_idle_cry_05" ID="{1E46542F-BF6A-45CB-ADAA-258A88016BD5}" ShortID="408252004">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_idle_cry_05" ID="{7E46B0B5-353A-4055-AC37-685271E5DE8A}" ShortID="723385490">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_idle_cry_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_idle_cry_05" ID="{7E46B0B5-353A-4055-AC37-685271E5DE8A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="c_magpie_voc_cry" ID="{1390C07A-B5DE-46E6-A848-7FE4BEA1E897}" ShortID="297198130">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="c_magpie_voc_cry" ID="{24EFFCBA-F95A-42A2-870A-B297AB19ABAA}" ShortID="799130572">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DCC971BE-A09D-4568-B0CA-3DC02831A9FB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="0.15"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{65961601-2089-4163-A2B4-56ED45D10239}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C8555851-52EB-409E-9209-C94157E853E4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="c_magpie_voc_cry_01" ID="{9D22D9BA-1CC8-4186-8B55-34E8B1E42E1D}" ShortID="257540818">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="AttachableMixerInput">
+															<Custom>
+																<Effect Name="Oculus Spatializer (Attached)" ID="{5FC78682-E27B-465A-98C0-A732ED3CA939}" ShortID="637855946" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_cry_01" ID="{DDBD84F5-4F87-44AA-986A-0ED46B308803}" ShortID="237043091">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_cry_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_cry_01" ID="{DDBD84F5-4F87-44AA-986A-0ED46B308803}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_cry_02" ID="{8BDC2926-C099-4709-829F-6767BB53D778}" ShortID="415429894">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_cry_02" ID="{BE1DFCF8-205B-41C1-B6BA-4216E17E2530}" ShortID="745200262">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_cry_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_cry_02" ID="{BE1DFCF8-205B-41C1-B6BA-4216E17E2530}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_cry_03" ID="{5DC70D3C-4503-4715-ABAB-D0A3A2DC689C}" ShortID="933597011">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_cry_03" ID="{E4469C3A-465E-496C-A7A1-6FBF32669AA3}" ShortID="618187684">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_cry_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_cry_03" ID="{E4469C3A-465E-496C-A7A1-6FBF32669AA3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_cry_04" ID="{39E673E6-2EAD-4AD9-AD5F-2BAB727329C6}" ShortID="372772670">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_cry_04" ID="{3057CFD1-0D79-4887-ABEF-02F93113E41F}" ShortID="170221923">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_cry_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_cry_04" ID="{3057CFD1-0D79-4887-ABEF-02F93113E41F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="c_magpie_voc_screech" ID="{CAA728AA-057C-49EC-9B88-63CDCF2F4F3D}" ShortID="669402432">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{724CEA23-57F1-4FFD-A85A-4DDD29B742FF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7FCA60A4-CAE6-4A02-914C-A2C611DE46B2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="c_magpie_voc_screech_01" ID="{C1D57A8D-A41D-455C-B838-E551D79C6AA3}" ShortID="31139476">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="AttachableMixerInput">
+															<Custom>
+																<Effect Name="Oculus Spatializer (Attached)" ID="{C2131FC9-4715-4B18-88CE-52BD6854C1C3}" ShortID="1062272166" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_screech_01" ID="{E91B1BD9-6F27-42C7-A400-BC785533DAA7}" ShortID="305466638">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_screech_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_screech_01" ID="{E91B1BD9-6F27-42C7-A400-BC785533DAA7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_screech_02" ID="{862F0922-B9DF-4CFC-99BD-D1F3BD4C0EEB}" ShortID="423896093">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_screech_02" ID="{F21B0E7D-C70D-41E6-BABD-D4FF3A22A7D7}" ShortID="110039528">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_screech_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_screech_02" ID="{F21B0E7D-C70D-41E6-BABD-D4FF3A22A7D7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_screech_03" ID="{E6117775-2A6C-4914-9D05-CF256401A626}" ShortID="574146169">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_screech_03" ID="{E2EB3404-1E4C-4F16-8356-E575914CE4DF}" ShortID="352374428">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_screech_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_screech_03" ID="{E2EB3404-1E4C-4F16-8356-E575914CE4DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="c_magpie_voc_screech_04" ID="{DFC14EE1-D088-415A-9298-E0F0BBB980A4}" ShortID="130432706">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="character_ship_50" ID="{7E3D3F26-2633-48A1-A91C-C14C36E79C13}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="c_magpie_voc_screech_04" ID="{F8A7B57D-0FD5-4F1A-9E43-C8BF108FB89A}" ShortID="107269154">
+															<Language>SFX</Language>
+															<AudioFile>character\magpie\c_magpie_voc_screech_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="c_magpie_voc_screech_04" ID="{F8A7B57D-0FD5-4F1A-9E43-C8BF108FB89A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="c_magpie_fol" ID="{E79CB6B8-A3B1-4EDA-9179-607B2E1EB3C8}" ShortID="523528410">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

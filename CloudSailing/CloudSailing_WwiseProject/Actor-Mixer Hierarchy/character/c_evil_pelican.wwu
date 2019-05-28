@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB6DA21A-4882-4363-8C37-54D15D37099F}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="c_evil_pelican" ID="{AB6DA21A-4882-4363-8C37-54D15D37099F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="c_evil_pelican" ID="{E7D2909D-D527-4ADF-A444-49A64230B1E8}" ShortID="534504285">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{FCF044A1-1E36-47CD-AD0B-82E17C4C7ABD}" ShortID="405512785" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="character_ship_100" ID="{BCC97231-A83F-42D4-B3E8-3086E4F11BF5}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="c_evil_pelican_voc" ID="{E737D203-67AE-4489-BC19-69F22521D33B}" ShortID="72733241">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="c_evil_pelican_voc_cry" ID="{E6CD3823-33EA-4CEC-A23B-F79142F898DF}" ShortID="160851425">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="c_evil_pelican_voc_cry" ID="{6A39A194-1C2F-4CED-B7F0-DB1A72C5CF78}" ShortID="346247568">
+											<Language>SFX</Language>
+											<AudioFile>character\evil_pelican\c_evil_pelican_voc_cry.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="c_evil_pelican_voc_cry" ID="{6A39A194-1C2F-4CED-B7F0-DB1A72C5CF78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="c_evil_pelican_fol" ID="{889E3804-1294-491B-BFD7-E8FD374B6D13}" ShortID="328004041">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

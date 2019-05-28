@@ -1,0 +1,1071 @@
+﻿Log file open, 05/16/19 12:40:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CloudSailing
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282009
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin OpenCVLensDistortion
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin DonAINavigation
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MixedRealityCaptureFramework
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 980 Ti
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogLinker: AddRedirectList(C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/MixedRealityCaptureFramework.ini) has substring redirect /MixedRealityFramework/, these are very slow and should be resolved as soon as possible!
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.16-10.40.12:311][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.16-10.40.12:311][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.16-10.40.12:311][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:311][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.16-10.40.12:311][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.05.16-10.40.12:311][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.16-10.40.12:312][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:312][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:316][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:316][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.16-10.40.12:316][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.16-10.40.12:317][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:318][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.16-10.40.12:318][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.16-10.40.12:318][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.16-10.40.12:318][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.16-10.40.12:330][  0]LogHAL: Display: Platform has ~ 32 GB [34316992512 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.16-10.40.12:330][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.16-10.40.12:330][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.16-10.40.12:330][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Scalability.ini]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.16-10.40.12:331][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Config/Windows/Engine.ini]
+[2019.05.16-10.40.12:331][  0]LogInit: Computer: FBMD-GAME-5-4
+[2019.05.16-10.40.12:331][  0]LogInit: User: Student
+[2019.05.16-10.40.12:331][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.16-10.40.12:331][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.16-10.40.12:331][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.05.16-10.40.12:331][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.16-10.40.12:331][  0]LogMemory: Process Physical Memory: 105.07 MB used, 105.07 MB peak
+[2019.05.16-10.40.12:331][  0]LogMemory: Process Virtual Memory: 102.31 MB used, 102.31 MB peak
+[2019.05.16-10.40.12:331][  0]LogMemory: Physical Memory: 5718.94 MB used,  27008.30 MB free, 32727.23 MB total
+[2019.05.16-10.40.12:331][  0]LogMemory: Virtual Memory: 4702.39 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2019.05.16-10.40.12:353][  0]LogInit: Using OS detected language (en-US).
+[2019.05.16-10.40.12:353][  0]LogInit: Using OS detected locale (en-DE).
+[2019.05.16-10.40.12:353][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.16-10.40.12:519][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.16-10.40.12:559][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.16-10.40.12:559][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.16-10.40.12:729][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.16-10.40.12:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2019.05.16-10.40.12:793][  0]LogD3D11RHI:       6097/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.16-10.40.12:795][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.16-10.40.12:795][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.16-10.40.12:795][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.16-10.40.12:800][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.16-10.40.12:800][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.16-10.40.12:800][  0]LogWindows: EnumDisplayDevices:
+[2019.05.16-10.40.12:800][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2019.05.16-10.40.12:801][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2019.05.16-10.40.12:801][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2019.05.16-10.40.12:801][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2019.05.16-10.40.12:801][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.16-10.40.12:801][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2019.05.16-10.40.12:801][  0]LogD3D11RHI:   Driver Version: 417.71 (internal:25.21.14.1771, unified:417.71)
+[2019.05.16-10.40.12:801][  0]LogD3D11RHI:      Driver Date: 1-11-2019
+[2019.05.16-10.40.12:801][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2019.05.16-10.40.12:840][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.16-10.40.12:843][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-10.40.12:843][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-10.40.12:844][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.16-10.40.12:857][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.16-10.40.13:199][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.16-10.40.13:213][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.16-10.40.13:226][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.16-10.40.13:240][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.16-10.40.13:255][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.16-10.40.13:268][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.16-10.40.13:281][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.16-10.40.13:295][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.16-10.40.13:301][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.16-10.40.13:381][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.16-10.40.13:382][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.16-10.40.13:432][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.16-10.40.13:432][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.16-10.40.13:456][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.16-10.40.13:456][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.16-10.40.13:467][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.16-10.40.13:480][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.16-10.40.13:492][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.16-10.40.13:506][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.16-10.40.13:553][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.16-10.40.13:553][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.16-10.40.13:553][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.16-10.40.13:563][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.16-10.40.13:614][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Intermediate/Shaders/WorkingDirectory/11484/).
+[2019.05.16-10.40.13:614][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/temp/UnrealShaderWorkingDir/39A395C74F3AE7F550C5508F90551418/'.
+[2019.05.16-10.40.13:616][  0]LogXGEController: Cleaning working directory: C:/Users/Student/AppData/Local/Temp/temp/UnrealXGEWorkingDir/
+[2019.05.16-10.40.13:616][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.16-10.40.13:616][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.16-10.40.13:616][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.16-10.40.14:162][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.16-10.40.14:211][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.16-10.40.14:211][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.16-10.40.14:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.16-10.40.14:211][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.16-10.40.14:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.16-10.40.14:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.16-10.40.14:223][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.16-10.40.14:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.16-10.40.14:224][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.16-10.40.14:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.16-10.40.14:236][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.16-10.40.14:236][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.16-10.40.14:259][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.16-10.40.14:260][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.16-10.40.14:261][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.16-10.40.14:344][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2019.05.16-10.40.14:656][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.16-10.40.14:792][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.16-10.40.14:792][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.16-10.40.14:792][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.16-10.40.14:792][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.16-10.40.14:792][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.16-10.40.14:804][  0]LogNetVersion: CloudSailing 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1042505378)
+[2019.05.16-10.40.15:223][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.054066 seconds
+[2019.05.16-10.40.15:230][  0]LogUObjectArray: 42266 objects as part of root set at end of initial load.
+[2019.05.16-10.40.15:230][  0]LogUObjectAllocator: 7335432 out of 0 bytes used by permanent object pool.
+[2019.05.16-10.40.15:230][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.16-10.40.16:027][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.16-10.40.16:040][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.16-10.40.16:157][  0]SourceControl: Source control is disabled
+[2019.05.16-10.40.16:157][  0]SourceControl: Source control is disabled
+[2019.05.16-10.40.16:232][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.16-10.40.16:355][  0]LogOcInput: OculusInput pre-init called
+[2019.05.16-10.40.17:015][  0]LogClass: Warning: FDoNNavigationQueryData::Origin is not initialized properly
+[2019.05.16-10.40.17:015][  0]LogClass: Warning: FDoNNavigationQueryData::Destination is not initialized properly
+[2019.05.16-10.40.17:015][  0]LogClass: Display: 2 Uninitialized script stuct members found
+[2019.05.16-10.40.17:016][  0]LogAutomationTest: Warning: FDoNNavigationQueryData::Origin is not initialized properly
+[2019.05.16-10.40.17:016][  0]LogAutomationTest: Warning: FDoNNavigationQueryData::Destination is not initialized properly
+[2019.05.16-10.40.17:019][  0]LogEngine: Initializing Engine...
+[2019.05.16-10.40.17:020][  0]LogHMD: Oculus plugin initialized. Version: 4.22.0-5660361+++UE4+Release-4.22, OVRPlugin: 1.32.0
+[2019.05.16-10.40.17:021][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.16-10.40.17:223][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.16-10.40.17:237][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.16-10.40.17:282][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.40.17:300][  0]LogInit: FAudioDevice initialized.
+[2019.05.16-10.40.17:300][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.16-10.40.17:376][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.16-10.40.17:381][  0]LogInit: Texture streaming: Enabled
+[2019.05.16-10.40.17:399][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.16-10.40.17:399][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={00A154DB-4A23-B5E1-2CD4-78B2AA2C01D6}
+[2019.05.16-10.40.17:418][  0]LogInit: Transaction tracking system initialized
+[2019.05.16-10.40.17:441][  0]BlueprintLog: New page: Editor Load
+[2019.05.16-10.40.17:542][  0]LocalizationService: Localization service is disabled
+[2019.05.16-10.40.17:666][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2019.05.16-10.40.17:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/' took 0.02s
+[2019.05.16-10.40.17:825][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.16-10.40.17:825][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.16-10.40.18:055][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.16-10.40.18:057][  0]LightingResults: New page: Lighting Build
+[2019.05.16-10.40.18:060][  0]MapCheck: New page: Map Check
+[2019.05.16-10.40.18:060][  0]LightingResults: New page: Lighting Build
+[2019.05.16-10.40.18:085][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.05.16-10.40.18:173][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.05.16-10.40.18:179][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.16-10.40.18:202][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.05.16-10.40.18:202][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.16-10.40.18:202][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.145ms to complete.
+[2019.05.16-10.40.18:202][  0]LogFileHelpers: Loading map 'StartupMap' took 0.147
+[2019.05.16-10.40.18:320][  0]LogSourceControl: Attempting 'p4 client -o stjastap_FBMD-GAME-5-4_4344'
+[2019.05.16-10.40.18:320][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.40.18:327][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.40.18:339][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.40.18:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.40.18:352][  0]LogCollectionManager: Loaded 0 collections in 0.001658 seconds
+[2019.05.16-10.40.18:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Collections/' took 0.01s
+[2019.05.16-10.40.18:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Developers/Student/Collections/' took 0.01s
+[2019.05.16-10.40.18:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Collections/' took 0.00s
+[2019.05.16-10.40.18:380][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.16-10.40.18:389][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2763 classes and 679 folders.
+[2019.05.16-10.40.18:396][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.16-10.40.18:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.16-10.40.18:438][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.16-10.40.18:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.05.16-10.40.18:446][  0]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.05.16-10.40.18:459][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2019.05.16-10.40.19:550][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.16-10.40.19:596][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.16-10.40.19:598][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.16-10.40.19:604][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.16-10.40.19:698][  0]LogRenderer: Reallocating scene render targets to support 1132x620 Format 26 NumSamples 1 (Frame:1).
+[2019.05.16-10.40.19:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.05.16-10.40.19:825][  0]LogLoad: (Engine Initialization) Total time: 9.24 seconds
+[2019.05.16-10.40.19:825][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.16-10.40.19:836][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.16-10.40.19:837][  0]LogOcInput: OculusInput is initialized
+[2019.05.16-10.40.19:876][  0]LogAssetRegistry: Asset discovery search completed in 5.5559 seconds
+[2019.05.16-10.40.19:878][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.16-10.40.19:878][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.05.16-10.40.19:880][  0]SourceControl: Client stjastap_FBMD-GAME-5-4_4344
+[2019.05.16-10.40.19:880][  0]SourceControl: Update 2019/04/10 13:29:51
+[2019.05.16-10.40.19:880][  0]SourceControl: Access 2019/05/16 12:38:08
+[2019.05.16-10.40.19:880][  0]SourceControl: Owner stjastap
+[2019.05.16-10.40.19:880][  0]SourceControl: Host FBMD-GAME-5-4
+[2019.05.16-10.40.19:880][  0]SourceControl: Description Created by stjastap.
+
+[2019.05.16-10.40.19:880][  0]SourceControl: Root C:\Users\Student\Perforce\stjastap_cloud_sailing
+[2019.05.16-10.40.19:880][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2019.05.16-10.40.19:880][  0]SourceControl: SubmitOptions submitunchanged
+[2019.05.16-10.40.19:880][  0]SourceControl: LineEnd local
+[2019.05.16-10.40.19:880][  0]SourceControl: Stream //SS19_P6_CloudSailing/main
+[2019.05.16-10.40.19:880][  0]SourceControl: View0 //SS19_P6_CloudSailing/main/... //stjastap_FBMD-GAME-5-4_4344/...
+[2019.05.16-10.40.19:880][  0]SourceControl: View1 -//SS19_P6_CloudSailing/...%%1.sln //stjastap_FBMD-GAME-5-4_4344/...%%1.sln
+[2019.05.16-10.40.19:880][  0]SourceControl: View2 -//SS19_P6_CloudSailing/....vs //stjastap_FBMD-GAME-5-4_4344/....vs
+[2019.05.16-10.40.19:880][  0]SourceControl: View3 -//SS19_P6_CloudSailing/...%%1.suo //stjastap_FBMD-GAME-5-4_4344/...%%1.suo
+[2019.05.16-10.40.19:880][  0]SourceControl: View4 -//SS19_P6_CloudSailing/...%%1.opensdf //stjastap_FBMD-GAME-5-4_4344/...%%1.opensdf
+[2019.05.16-10.40.19:880][  0]SourceControl: View5 -//SS19_P6_CloudSailing/...%%1.sdf //stjastap_FBMD-GAME-5-4_4344/...%%1.sdf
+[2019.05.16-10.40.19:880][  0]SourceControl: View6 -//SS19_P6_CloudSailing/...%%1.pdb //stjastap_FBMD-GAME-5-4_4344/...%%1.pdb
+[2019.05.16-10.40.19:880][  0]SourceControl: View7 -//SS19_P6_CloudSailing/...%%1-Debug.dll //stjastap_FBMD-GAME-5-4_4344/...%%1-Debug.dll
+[2019.05.16-10.40.19:880][  0]SourceControl: View8 -//SS19_P6_CloudSailing/...%%1.xcodeproj //stjastap_FBMD-GAME-5-4_4344/...%%1.xcodeproj
+[2019.05.16-10.40.19:880][  0]SourceControl: View9 -//SS19_P6_CloudSailing/..../Makefile //stjastap_FBMD-GAME-5-4_4344/..../Makefile
+[2019.05.16-10.40.19:880][  0]SourceControl: View10 -//SS19_P6_CloudSailing/..../CMakeLists.txt //stjastap_FBMD-GAME-5-4_4344/..../CMakeLists.txt
+[2019.05.16-10.40.19:880][  0]SourceControl: View11 -//SS19_P6_CloudSailing/..../.ue4dependencies //stjastap_FBMD-GAME-5-4_4344/..../.ue4dependencies
+[2019.05.16-10.40.19:880][  0]SourceControl: View12 -//SS19_P6_CloudSailing/...ipch/%%1 //stjastap_FBMD-GAME-5-4_4344/...ipch/%%1
+[2019.05.16-10.40.19:880][  0]SourceControl: View13 -//SS19_P6_CloudSailing/...Engine/DerivedDataCache/%%1 //stjastap_FBMD-GAME-5-4_4344/...Engine/DerivedDataCache/%%1
+[2019.05.16-10.40.19:880][  0]SourceControl: View14 -//SS19_P6_CloudSailing/...Engine/Intermediate/%%1 //stjastap_FBMD-GAME-5-4_4344/...Engine/Intermediate/%%1
+[2019.05.16-10.40.19:880][  0]SourceControl: View15 -//SS19_P6_CloudSailing/...Engine/Saved/%%1 //stjastap_FBMD-GAME-5-4_4344/...Engine/Saved/%%1
+[2019.05.16-10.40.19:880][  0]SourceControl: View16 -//SS19_P6_CloudSailing/...Engine/Build/Receipts/%%1 //stjastap_FBMD-GAME-5-4_4344/...Engine/Build/Receipts/%%1
+[2019.05.16-10.40.19:880][  0]SourceControl: View17 -//SS19_P6_CloudSailing/...%%1~ //stjastap_FBMD-GAME-5-4_4344/...%%1~
+[2019.05.16-10.40.19:881][  0]SourceControl: View18 -//SS19_P6_CloudSailing/....DS_Store //stjastap_FBMD-GAME-5-4_4344/....DS_Store
+[2019.05.16-10.40.19:881][  0]SourceControl: View19 -//SS19_P6_CloudSailing/...crashinfo--%%1 //stjastap_FBMD-GAME-5-4_4344/...crashinfo--%%1
+[2019.05.16-10.40.19:881][  0]SourceControl: View20 -//SS19_P6_CloudSailing/...%%1.user //stjastap_FBMD-GAME-5-4_4344/...%%1.user
+[2019.05.16-10.40.19:881][  0]SourceControl: View21 -//SS19_P6_CloudSailing/...%%1.pro //stjastap_FBMD-GAME-5-4_4344/...%%1.pro
+[2019.05.16-10.40.19:881][  0]SourceControl: View22 -//SS19_P6_CloudSailing/...%%1.pri //stjastap_FBMD-GAME-5-4_4344/...%%1.pri
+[2019.05.16-10.40.19:881][  0]SourceControl: View23 -//SS19_P6_CloudSailing/...%%1.kdev4 //stjastap_FBMD-GAME-5-4_4344/...%%1.kdev4
+[2019.05.16-10.40.19:881][  0]SourceControl: View24 -//SS19_P6_CloudSailing/.../Binaries/... //stjastap_FBMD-GAME-5-4_4344/.../Binaries/...
+[2019.05.16-10.40.19:881][  0]SourceControl: View25 -//SS19_P6_CloudSailing/.../Build/Receipts/... //stjastap_FBMD-GAME-5-4_4344/.../Build/Receipts/...
+[2019.05.16-10.40.19:881][  0]SourceControl: View26 -//SS19_P6_CloudSailing/.../DerivedDataCache/... //stjastap_FBMD-GAME-5-4_4344/.../DerivedDataCache/...
+[2019.05.16-10.40.19:881][  0]SourceControl: View27 -//SS19_P6_CloudSailing/.../Intermediate/... //stjastap_FBMD-GAME-5-4_4344/.../Intermediate/...
+[2019.05.16-10.40.19:881][  0]SourceControl: View28 -//SS19_P6_CloudSailing/.../Saved/... //stjastap_FBMD-GAME-5-4_4344/.../Saved/...
+[2019.05.16-10.40.19:881][  0]SourceControl: View29 -//SS19_P6_CloudSailing/.../%%1.sln //stjastap_FBMD-GAME-5-4_4344/.../%%1.sln
+[2019.05.16-10.40.19:881][  0]SourceControl: Type writeable
+[2019.05.16-10.40.19:881][  0]SourceControl: Backup enable
+[2019.05.16-10.40.19:881][  0]SourceControl: specFormatted 
+[2019.05.16-10.40.19:881][  0]SourceControl: func client-FstatInfo
+[2019.05.16-10.40.19:881][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.16-10.40.19:915][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.16-10.40.20:793][102]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/Audio.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World1.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World1_BuiltData.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World2.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World2_BuiltData.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Bounty.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_BuiltData.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay_BuiltData.uasset'
+[2019.05.16-10.40.22:117][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.40.23:475][421]LogSlate: Window 'Plugins' being destroyed
+[2019.05.16-10.40.23:481][421]LogSlate: Window 'Plugins' being destroyed
+[2019.05.16-10.40.23:481][421]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.05.16-10.40.23:481][421]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Plugins/' was aborted.
+[2019.05.16-10.45.10:383][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.45.10:503][568]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.16-10.45.10:687][568]LogLinker: Warning: Can't find file '/Game/Assets/Materials/Mat_Hand_01'
+[2019.05.16-10.45.10:687][568]LoadErrors: Failed to load /Game/Geometry/Meshes/mesh_LeatherGlove_Skinned_LP_V01.mesh_LeatherGlove_Skinned_LP_V01 Referenced by HandMesh_GEN_VARIABLE
+[2019.05.16-10.45.10:687][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/Mat_Hand_01' while loading NULL.
+[2019.05.16-10.45.10:688][568]LogLinker: Warning: Can't find file '/Game/Assets/Materials/Mat_Hand_01'
+[2019.05.16-10.45.10:688][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/Mat_Hand_01' while loading NULL.
+[2019.05.16-10.45.10:688][568]LogLinker: Warning: Can't find file '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset'
+[2019.05.16-10.45.10:688][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset' while loading NULL.
+[2019.05.16-10.45.10:688][568]LogLinker: Warning: Can't find file '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset'
+[2019.05.16-10.45.10:689][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset' while loading NULL.
+[2019.05.16-10.45.11:260][568]LogLinker: Warning: Can't find file '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset'
+[2019.05.16-10.45.11:260][568]LoadErrors: Failed to load /Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset.mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset Referenced by mesh_LeatherGlove_Skinned_LP_V01
+[2019.05.16-10.45.11:260][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Meshes/Character/Hand/mesh_LeatherGlove_Skinned_LP_V01_PhysicsAsset' while loading NULL.
+[2019.05.16-10.45.11:260][568]LogLinker: Warning: Can't find file '/Game/Assets/Materials/Mat_Hand_01'
+[2019.05.16-10.45.11:260][568]LoadErrors: Failed to load /Game/Assets/Materials/Mat_Hand_01.Mat_Hand_01 Referenced by mesh_LeatherGlove_Skinned_LP_V01
+[2019.05.16-10.45.11:260][568]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/Mat_Hand_01' while loading NULL.
+[2019.05.16-10.45.12:153][568]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.45.13:406][568]LogAssetEditorManager: Opening Asset editor for World /Game/Level/World.World
+[2019.05.16-10.45.16:260][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.05.16-10.45.16:261][568]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.16-10.45.16:262][568]LightingResults: New page: Lighting Build
+[2019.05.16-10.45.16:262][568]LoadErrors: New page: Loading map: World.umap
+[2019.05.16-10.45.16:263][568]MapCheck: New page: Map Check
+[2019.05.16-10.45.16:263][568]LightingResults: New page: Lighting Build
+[2019.05.16-10.45.16:290][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.05.16-10.45.16:304][568]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.45.16:341][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Level/World_Bounty) is flushing async loading
+[2019.05.16-10.45.16:341][568]LogStreaming: Display: Flushing async loaders.
+[2019.05.16-10.45.17:673][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Level/World_Gameplay) is flushing async loading
+[2019.05.16-10.45.18:335][568]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.16-10.45.21:320][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.05.16-10.45.21:350][568]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.16-10.45.21:350][568]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.458ms to complete.
+[2019.05.16-10.45.21:350][568]LogFileHelpers: Loading map 'World' took 5.090
+[2019.05.16-10.45.21:964][569]LogStaticMesh: Allocated 496x128x128 distance field atlas = 15.5Mb, with 66 objects containing 14.0Mb backing data
+[2019.05.16-10.45.45:562][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.16-10.45.47:171][420]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.16-10.45.48:858][615]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World.umap'
+[2019.05.16-10.45.48:889][615]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World.umap'
+[2019.05.16-10.45.50:436][615]LogSlate: Window 'Check Out Assets' being destroyed
+[2019.05.16-10.45.51:842][782]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.45.53:988][ 21]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.05.16-10.45.54:813][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.46.00:294][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.46.02:603][807]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Bounty.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Creature.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_CreatureSpline.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Enemy.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Fish.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Fish_v2.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_fishing_rod.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Harpoon.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Harpoon_projectile.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Harpoon_VR.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_Repair_Material1.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_ship_Damage.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_ShipController.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_ShipController2.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_steer_wheel.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_VolumetricClouds.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/BP_WindBarrier.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/CreatureStopVolume.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Enemy_State.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/speedControll.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/SpeedRope.uasset'
+[2019.05.16-10.46.04:488][  8]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/BP_Magpie.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/BTTask_BlueprintBase_New.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BlackboardData.uasset C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/ShipFollower.uasset'
+[2019.05.16-10.46.05:150][ 86]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/Blueprints/Magpie/Magpie_BehaviorTree.Magpie_BehaviorTree
+[2019.05.16-10.46.05:239][ 86]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.16-10.46.06:516][233]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.47.18:499][156]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.47.18:532][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.47.18:558][156]LogSavePackage: Moving '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Magpie_BehaviorTree1DC992F940DC827D1AA77F962FF0AFE1.tmp' to '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.47.23:996][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.47.24:088][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.05.16-10.47.24:919][606]LogSlate: Window 'Save Content' being destroyed
+[2019.05.16-10.47.28:572][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.47.28:713][ 56]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.47.28:728][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.28:728][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.28:728][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.28:731][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.47.28:731][ 56]PIE: New page: SIE session: World (May 16, 2019, 2:47:28 PM)
+[2019.05.16-10.47.28:744][ 56]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.47.29:036][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.292001s)
+[2019.05.16-10.47.29:037][ 56]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.47.29:037][ 56]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2019.05.16-10.47.29:038][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.294293s)
+[2019.05.16-10.47.29:064][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.05.16-10.47.29:098][ 56]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.47.29:110][ 56]LogInit: FAudioDevice initialized.
+[2019.05.16-10.47.29:152][ 56]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.47.29:152][ 56]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.47.29:293][ 56]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.47.29:320][ 56]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.47.29
+[2019.05.16-10.47.29:349][ 56]LogWorld: Bringing up level for play took: 0.066469
+[2019.05.16-10.47.29:368][ 56]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.05.16-10.47.29:383][ 56]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.47.29:383][ 56]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.47.29:387][ 56]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 1.117
+[2019.05.16-10.47.29:425][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.29:425][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.29:425][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.29:427][ 56]DoNNavigationLog: Warning: Pawn's initial/final position overlaps an obstacle. Attempting to find substitute vector (a nearby free spot) for pathfinding...
+[2019.05.16-10.47.29:427][ 56]DoNNavigationLog: Warning: Substitute Origin or Destination (X=0.000 Y=0.000 Z=-100.000 offset) is being used for pawn to overcome initial overlap. (Can be disabled in QueryParams)
+[2019.05.16-10.47.31:996][ 72]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.47.37:864][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.47.37:979][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.37:979][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.37:979][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.37:983][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.47.38:065][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.47.38:065][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.38:065][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.38:065][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.38:099][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.47.38:110][610]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.05.16-10.47.38:128][611]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.16-10.47.38:153][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.05.16-10.47.38:974][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2019.05.16-10.47.39:885][802]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.47.40:809][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.47.40:909][921]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.47.40:924][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.40:924][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.40:924][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.40:926][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.47.40:926][921]PIE: New page: SIE session: World (May 16, 2019, 2:47:40 PM)
+[2019.05.16-10.47.40:926][921]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.47.41:202][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.275434s)
+[2019.05.16-10.47.41:202][921]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.47.41:202][921]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2019.05.16-10.47.41:203][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.276622s)
+[2019.05.16-10.47.41:227][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.05.16-10.47.41:262][921]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.47.41:274][921]LogInit: FAudioDevice initialized.
+[2019.05.16-10.47.41:303][921]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.47.41:303][921]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.47.41:440][921]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.47.41:467][921]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.47.41
+[2019.05.16-10.47.41:470][921]LogWorld: Bringing up level for play took: 0.039385
+[2019.05.16-10.47.41:496][921]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.47.41:496][921]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.47.41:499][921]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 1.23
+[2019.05.16-10.47.41:517][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.41:517][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.41:517][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.41:519][921]DoNNavigationLog: Warning: Pawn's initial/final position overlaps an obstacle. Attempting to find substitute vector (a nearby free spot) for pathfinding...
+[2019.05.16-10.47.41:519][921]DoNNavigationLog: Warning: Substitute Origin or Destination (X=0.000 Y=0.000 Z=-100.000 offset) is being used for pawn to overcome initial overlap. (Can be disabled in QueryParams)
+[2019.05.16-10.47.44:233][940]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.47.47:110][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.47:110][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.47:110][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.47:113][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.47.47:193][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.47.47:193][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.47.47:193][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.47.47:193][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.47.47:227][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.47.47:235][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.05.16-10.47.47:252][197]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.05.16-10.47.47:275][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.05.16-10.47.49:166][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cloud_plane265)
+[2019.05.16-10.47.49:166][421]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (cloud_plane265)
+[2019.05.16-10.47.49:718][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cloud_plane265)
+[2019.05.16-10.47.49:718][486]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (cloud_plane265)
+[2019.05.16-10.47.50:111][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cloud_plane265)
+[2019.05.16-10.47.50:111][532]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (cloud_plane265)
+[2019.05.16-10.47.50:504][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cloud_plane265)
+[2019.05.16-10.47.50:504][578]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (cloud_plane265)
+[2019.05.16-10.47.52:945][825]LogEditorViewport: Clicking on Actor (LMB): DonNavigationManagerUnbound (DonNavigationManagerUnbound1)
+[2019.05.16-10.47.54:052][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.48.26:435][685]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.48.26:451][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.26:451][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.26:451][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.48.26:453][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.48.26:453][685]PIE: New page: SIE session: World (May 16, 2019, 2:48:26 PM)
+[2019.05.16-10.48.26:453][685]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.48.26:728][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274571s)
+[2019.05.16-10.48.26:728][685]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.48.26:729][685]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.05.16-10.48.26:729][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.275769s)
+[2019.05.16-10.48.26:754][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.05.16-10.48.26:788][685]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.48.26:800][685]LogInit: FAudioDevice initialized.
+[2019.05.16-10.48.26:828][685]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.48.26:828][685]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.48.26:969][685]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.48.26:992][685]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.48.26
+[2019.05.16-10.48.26:994][685]LogWorld: Bringing up level for play took: 0.035739
+[2019.05.16-10.48.27:009][685]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.48.27:013][685]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 0.743
+[2019.05.16-10.48.27:021][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.27:021][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.27:021][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.48.27:023][685]DoNNavigationLog: Warning: Pawn's initial/final position overlaps an obstacle. Attempting to find substitute vector (a nearby free spot) for pathfinding...
+[2019.05.16-10.48.27:023][685]DoNNavigationLog: Warning: Substitute Origin or Destination (X=0.000 Y=0.000 Z=-100.000 offset) is being used for pawn to overcome initial overlap. (Can be disabled in QueryParams)
+[2019.05.16-10.48.29:497][702]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.48.31:510][889]DoNNavigationLog: Warning: Query timed out before optimization was complete, returning unoptimized solution for Actor BP_Magpie_2. Num iterations : 2983
+[2019.05.16-10.48.31:510][889]DoNNavigationLog: Warning: Task (Fly To) is not active.
+[2019.05.16-10.48.32:719][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.48.32:816][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.32:816][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.32:816][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.48.32:820][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.48.32:900][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.48.32:901][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.32:901][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.32:901][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.48.32:929][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.48.32:942][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.05.16-10.48.32:968][987]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.05.16-10.48.32:991][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.05.16-10.48.34:547][171]LogEditorViewport: Clicking on Actor (LMB): DonNavigationManagerUnbound (DonNavigationManagerUnbound1)
+[2019.05.16-10.48.41:083][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.48.44:550][308]Cmd: EDIT COPY
+[2019.05.16-10.48.47:959][708]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.48.53:894][377]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.48.53:914][377]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.48.53:932][377]LogSavePackage: Moving '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Magpie_BehaviorTreeF9F47CCB4626D4AEB70E8791B4D37BE1.tmp' to '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.48.56:398][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2019.05.16-10.48.58:594][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.48.58:686][860]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.48.58:701][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.58:701][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.58:701][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.48.58:704][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.48.58:704][860]PIE: New page: SIE session: World (May 16, 2019, 2:48:58 PM)
+[2019.05.16-10.48.58:704][860]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.48.58:984][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279886s)
+[2019.05.16-10.48.58:985][860]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.48.58:985][860]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.05.16-10.48.58:986][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.281199s)
+[2019.05.16-10.48.59:011][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.05.16-10.48.59:046][860]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.48.59:057][860]LogInit: FAudioDevice initialized.
+[2019.05.16-10.48.59:090][860]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.48.59:090][860]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.48.59:227][860]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.48.59:251][860]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.48.59
+[2019.05.16-10.48.59:254][860]LogWorld: Bringing up level for play took: 0.036331
+[2019.05.16-10.48.59:280][860]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.48.59:280][860]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.48.59:283][860]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 1.014
+[2019.05.16-10.48.59:301][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.48.59:301][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.48.59:301][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.01:916][877]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.49.03:165][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.03:165][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.03:165][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.03:169][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.03:249][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.49.03:250][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.03:250][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.03:250][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.03:284][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.03:293][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.05.16-10.49.03:319][986]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.16-10.49.03:344][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.05.16-10.49.03:935][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2019.05.16-10.49.05:840][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.49.05:923][272]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.49.05:938][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.05:938][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.05:938][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.05:940][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.49.05:940][272]PIE: New page: SIE session: World (May 16, 2019, 2:49:05 PM)
+[2019.05.16-10.49.05:940][272]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.49.06:212][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272009s)
+[2019.05.16-10.49.06:213][272]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.49.06:213][272]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2019.05.16-10.49.06:214][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.273665s)
+[2019.05.16-10.49.06:238][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.05.16-10.49.06:273][272]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.49.06:284][272]LogInit: FAudioDevice initialized.
+[2019.05.16-10.49.06:314][272]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.49.06:314][272]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.49.06:450][272]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.49.06:472][272]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.49.06
+[2019.05.16-10.49.06:475][272]LogWorld: Bringing up level for play took: 0.033853
+[2019.05.16-10.49.06:501][272]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.49.06:501][272]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.49.06:504][272]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 0.234
+[2019.05.16-10.49.06:519][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.06:519][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.06:519][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.09:202][290]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.49.27:895][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.27:896][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.27:896][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.27:899][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.27:977][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.49.27:977][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.27:977][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.27:977][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.28:007][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.28:020][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.05.16-10.49.28:034][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.05.16-10.49.28:060][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.05.16-10.49.30:619][338]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.49.38:811][309]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.49.39:470][384]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.49.39:490][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.49.39:508][384]LogSavePackage: Moving '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/Magpie_BehaviorTreeAB91736E462EE7FCC0751A868EAF9D15.tmp' to '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Blueprints/Magpie/Magpie_BehaviorTree.uasset'
+[2019.05.16-10.49.40:830][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.49.40:920][514]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.49.40:935][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.40:935][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.40:935][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.40:937][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.49.40:937][514]PIE: New page: SIE session: World (May 16, 2019, 2:49:40 PM)
+[2019.05.16-10.49.40:937][514]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.49.41:210][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272635s)
+[2019.05.16-10.49.41:210][514]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.49.41:211][514]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.05.16-10.49.41:211][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.273877s)
+[2019.05.16-10.49.41:235][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.05.16-10.49.41:268][514]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.49.41:280][514]LogInit: FAudioDevice initialized.
+[2019.05.16-10.49.41:312][514]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.49.41:312][514]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.49.41:449][514]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.49.41:480][514]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.49.41
+[2019.05.16-10.49.41:483][514]LogWorld: Bringing up level for play took: 0.043220
+[2019.05.16-10.49.41:510][514]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.49.41:510][514]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.49.41:513][514]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 1.243
+[2019.05.16-10.49.41:515][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.41:515][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.41:515][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.44:157][533]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.49.49:153][832]DoNNavigationLog: Warning: Pawn's initial/final position overlaps an obstacle. Attempting to find substitute vector (a nearby free spot) for pathfinding...
+[2019.05.16-10.49.49:153][832]DoNNavigationLog: Warning: Substitute Origin or Destination (X=-60.000 Y=0.000 Z=0.000 offset) is being used for pawn to overcome initial overlap. (Can be disabled in QueryParams)
+[2019.05.16-10.49.53:007][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.53:007][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.53:007][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.53:011][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.53:092][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.49.53:092][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.53:092][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.53:092][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.53:127][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.49.53:136][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.05.16-10.49.53:159][167]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.05.16-10.49.53:183][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.05.16-10.49.54:161][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube40)
+[2019.05.16-10.49.56:235][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.49.56:318][524]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.49.56:334][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.56:334][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.56:334][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.56:336][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.49.56:336][524]PIE: New page: SIE session: World (May 16, 2019, 2:49:56 PM)
+[2019.05.16-10.49.56:336][524]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.49.56:613][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.276709s)
+[2019.05.16-10.49.56:614][524]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.49.56:614][524]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2019.05.16-10.49.56:615][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.278128s)
+[2019.05.16-10.49.56:638][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.05.16-10.49.56:671][524]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.49.56:684][524]LogInit: FAudioDevice initialized.
+[2019.05.16-10.49.56:711][524]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.49.56:711][524]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.49.56:850][524]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.49.56:873][524]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.49.56
+[2019.05.16-10.49.56:876][524]LogWorld: Bringing up level for play took: 0.035731
+[2019.05.16-10.49.56:902][524]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.49.56:902][524]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.49.56:906][524]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World 0.637
+[2019.05.16-10.49.56:927][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.49.56:927][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.49.56:927][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.49.59:549][545]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125
+[2019.05.16-10.50.02:895][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.50.02:895][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.50.02:895][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.50.02:899][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.50.02:982][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.16-10.50.02:982][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.50.02:982][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.50.02:982][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.50.03:011][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.16-10.50.03:024][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.05.16-10.50.03:047][874]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.16-10.50.03:072][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.05.16-10.50.05:420][152]LogEditorViewport: Clicking on Actor (LMB): DonNavigationManagerUnbound (DonNavigationManagerUnbound1)
+[2019.05.16-10.50.06:086][226]Cmd: DELETE
+[2019.05.16-10.50.06:086][226]Cmd: ACTOR DELETE
+[2019.05.16-10.50.06:144][226]LogEditorActor: Deleted Actor: DonNavigationManagerUnbound
+[2019.05.16-10.50.06:168][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.05.16-10.50.06:168][226]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2019.05.16-10.50.08:159][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.50.11:176][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.05.16-10.50.12:511][779]LogSlate: Window 'Save Content' being destroyed
+[2019.05.16-10.50.12:522][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.50.12:549][779]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.50.12:568][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.50.12:600][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.05.16-10.50.12:619][779]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_Gameplay, Actor: /Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.REINST_World_Gameplay_C_0
+[2019.05.16-10.50.12:886][779]LogSavePackage: Moving '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/World_GameplayC0B659D14F31562B665717883FAB3A51.tmp' to '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.50.12:891][779]LogFileHelpers: Saving map 'World_Gameplay' took 0.317
+[2019.05.16-10.50.14:088][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.50.16:019][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.50.16:281][169]LogEditor: Attempting to add actor of class 'DonNavigationManager' to level at -219914.47,16427.32,-2377.13
+[2019.05.16-10.50.17:110][261]LogEditor: Attempting to add actor of class 'DonNavigationManager' to level at -206852.84,32426.62,-2377.13
+[2019.05.16-10.50.17:142][263]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.50.34:410][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.51.02:545][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.51.02:642][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.05.16-10.51.03:798][280]LogSlate: Window 'Save Content' being destroyed
+[2019.05.16-10.51.03:809][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.51.03:835][280]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.51.03:860][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.16-10.51.03:892][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.05.16-10.51.03:905][280]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_Gameplay, Actor: /Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.REINST_World_Gameplay_C_0
+[2019.05.16-10.51.04:173][280]LogSavePackage: Moving '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Saved/World_Gameplay623253594EFBA83772C1E8AB148CA045.tmp' to '../../../../../../Users/Student/Perforce/stjastap_cloud_sailing/CloudSailing/Content/Level/World_Gameplay.umap'
+[2019.05.16-10.51.04:177][280]LogFileHelpers: Saving map 'World_Gameplay' took 0.312
+[2019.05.16-10.51.05:287][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.16-10.51.05:371][417]LogTemp: Repeating last play command: Simulate
+[2019.05.16-10.51.05:385][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.51.05:385][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.51.05:385][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.51.05:388][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.16-10.51.05:388][417]PIE: New page: SIE session: World (May 16, 2019, 2:51:05 PM)
+[2019.05.16-10.51.05:388][417]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_World
+[2019.05.16-10.51.05:666][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.277980s)
+[2019.05.16-10.51.05:666][417]LogAIModule: Creating AISystem for world World
+[2019.05.16-10.51.05:667][417]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2019.05.16-10.51.05:667][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/World.World to /Game/Level/UEDPIE_0_World.World (0.279495s)
+[2019.05.16-10.51.05:692][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.05.16-10.51.05:726][417]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.16-10.51.05:738][417]LogInit: FAudioDevice initialized.
+[2019.05.16-10.51.05:765][417]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.05.16-10.51.05:765][417]LogLoad: Game class is 'GameModeBase'
+[2019.05.16-10.51.05:909][417]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_World.World:PersistentLevel.FloatRock94.StaticMeshComponent0' 
+[2019.05.16-10.51.05:932][417]LogWorld: Bringing World /Game/Level/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.05.16-12.51.05
+[2019.05.16-10.51.05:935][417]LogWorld: Bringing up level for play took: 0.034897
+[2019.05.16-10.51.05:959][417]DoNNavigationLog: Time spent generating 90000 NAV volumes: 0.009000 seconds
+[2019.05.16-10.51.05:971][417]DoNNavigationLog: FDonNavigationWorker thread started
+[2019.05.16-10.51.05:971][417]LogMovieScene: Warning: Can't find sublevel 'World_Gameplay' to spawn 'Bird' into
+[2019.05.16-10.51.05:974][417]PIE: Play in editor start time for /Game/Level/UEDPIE_0_World -0.296
+[2019.05.16-10.51.05:982][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World.World:PersistentLevel.World' with GeneratedClass '/Game/Level/World.World_C' with ClassGeneratedBy '/Game/Level/World.World:PersistentLevel.World'
+[2019.05.16-10.51.05:982][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Bounty.World_Bounty:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty' with GeneratedClass '/Game/Level/World_Bounty.World_Bounty_C' with ClassGeneratedBy '/Game/Level/World_Bounty.World_Bounty:PersistentLevel.World_Bounty'
+[2019.05.16-10.51.05:982][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel' has LevelScriptBlueprint '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay' with GeneratedClass '/Game/Level/World_Gameplay.World_Gameplay_C' with ClassGeneratedBy '/Game/Level/World_Gameplay.World_Gameplay:PersistentLevel.World_Gameplay'
+[2019.05.16-10.51.08:536][430]LogBlueprintUserMessages: [BP_fishing_rod_2] 215846.3125

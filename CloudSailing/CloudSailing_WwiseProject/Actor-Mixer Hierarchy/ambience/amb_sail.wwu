@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5DCF140F-D33D-48FD-847D-AEB93F339DE3}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="amb_sail" ID="{5DCF140F-D33D-48FD-847D-AEB93F339DE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="amb_sail" ID="{82BBC570-2F61-4262-95A3-704ADEDF3496}" ShortID="805477483">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{941E97FA-46D8-4BBD-A117-5CC1420EB11B}" ShortID="239315718" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="amb_sail" ID="{FE63B734-5636-4B7D-956E-B903366E957E}" ShortID="1005780959">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="amb_sail_base" ID="{729D2F0C-4926-4711-BBA8-F6DAB3D41729}" ShortID="166679304">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3BB5239E-D360-4EDE-925C-A261892BB988}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{75898574-9D07-43FF-BADE-69E2ACBC775E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0A76BF92-33C9-4702-B358-E6ACBDC218E7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{22B503B9-9A9C-4832-BAD0-2F4F3246BE83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{A515D805-6B80-479F-BFCD-C9C02BA33385}" ShortID="480000890" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_sail_base_oneshot" ID="{A1C56C93-2436-4E7C-84EC-899297618D63}" ShortID="985230794">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{9E2BEA08-5DB2-4A68-A164-E1387ED7CEE5}" ShortID="157637974" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{54D36B96-99FE-4BF7-B1C7-83F0436FC1A3}" ShortID="669954480">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.97215412821358"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{05846069-A9F7-451E-B3F5-046B9404E350}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{54D36B96-99FE-4BF7-B1C7-83F0436FC1A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_base_oneshot_01" ID="{BC9BBCC2-4D70-43CD-B8AB-940B89419242}" ShortID="12859038">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{555EF711-6C6F-4C51-B69E-E7E317DCFD48}" ShortID="149136885" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{82DA5B13-1610-46C2-B616-BC3057696F69}" ShortID="254684592">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.44042518127883E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.50907424192485"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.82125494396836"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{B948E58B-9DEC-4465-9576-21CC4F566DC1}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{DAF370D0-5C8A-4E3A-827E-B331AC1CE543}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="20"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="20"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{82DA5B13-1610-46C2-B616-BC3057696F69}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_base_oneshot_02" ID="{81AB4E96-43B8-4886-AEF1-478E12F2E509}" ShortID="593034880">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{3E3604D3-988C-4562-8379-609BCDCA1DC5}" ShortID="19946295" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{7E4FA491-C15B-4D57-8B3E-3B8C948A4012}" ShortID="585848266">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.88861651285432"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.49354194133157"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{CA83A570-55A7-4DBD-BAC9-8291B5F9EB84}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{902C82F4-C43C-4B21-9A01-3BD40F9184D5}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="20"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="20"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{7E4FA491-C15B-4D57-8B3E-3B8C948A4012}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_base_oneshot_03" ID="{2C7201FA-52A7-43C6-888E-11326F367095}" ShortID="304825325">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{6A49352E-CA8A-4DC5-A6A1-483396EED13F}" ShortID="412841959" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{A0768374-6379-44BB-BB5D-772EF50FB11A}" ShortID="859100778">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.8400471736981"/>
+														<Property Name="TrimEnd" Type="Real64" Value="12.5945842946605"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{D9860BD3-8499-4D79-AF16-F7B75C5E90CC}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{22637ECA-2395-4072-9D76-B0C76B63D813}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="20"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="20"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{A0768374-6379-44BB-BB5D-772EF50FB11A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_base_oneshot_04" ID="{FC519CB3-52D3-43FF-A796-52A0581D40E4}" ShortID="628078267">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{6C64E20F-3E2C-4AE0-9655-E7001944F3AB}" ShortID="589779947" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{F0184BEE-16E6-4BE6-8C00-B422C40B58AD}" ShortID="623457046">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="14.1315044083718"/>
+														<Property Name="TrimEnd" Type="Real64" Value="15.5732170814107"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{11897443-7228-452B-A867-A700773D7577}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{AB39897C-8182-4C27-9919-1DEF851B8E07}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="20"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="20"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{F0184BEE-16E6-4BE6-8C00-B422C40B58AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_base_oneshot_05" ID="{2BD1B9C8-4894-4A81-9B3C-D4440B21672E}" ShortID="728359582">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{B03B87A7-62B8-4908-8BBA-4AC585D0FEBE}" ShortID="329975053" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_base_oneshot" ID="{F0D2A348-B047-4A27-83F6-3FB9726DD2A0}" ShortID="368399429">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="9.52074406723789E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.36010629531971E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="17.2053446357943"/>
+														<Property Name="TrimEnd" Type="Real64" Value="18.97348281971"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_base_oneshot.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{FB914EED-82FE-4B0F-A82E-457B009ADED0}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{92455D30-E7CD-4AFE-9D30-4BCE27A43CEA}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="20"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="20"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>-25</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-25</XPos>
+																	<YPos>25</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_base_oneshot" ID="{F0D2A348-B047-4A27-83F6-3FB9726DD2A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{C3C0896D-CC13-456C-A958-FF5E161C1DA7}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="amb_sail_base_Path" ID="{0801C5E7-3C91-4038-A0CF-4D07144E62D1}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>4</YPos>
+															<ZPos>4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_01" ID="{C7B5FDDC-2683-419A-855E-870CBBCF9ECF}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-4</XPos>
+															<YPos>4</YPos>
+															<ZPos>4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_02" ID="{66A6DE07-C3F2-4AEF-BCF2-C2D0B3D61F8B}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-4</XPos>
+															<YPos>-4</YPos>
+															<ZPos>4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_03" ID="{8AF71CBE-A68C-4DA2-AE05-B0397EF5A8C1}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>-4</YPos>
+															<ZPos>4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_04" ID="{E3682196-8146-4D3B-A256-DCAF9F49FD32}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>4</YPos>
+															<ZPos>-4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_05" ID="{4F1F3349-DECE-4F6C-A9E0-BE9A2567B178}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-4</XPos>
+															<YPos>4</YPos>
+															<ZPos>-4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_06" ID="{712F6558-0328-4737-8A59-8CFF11A94DAA}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-4</XPos>
+															<YPos>-4</YPos>
+															<ZPos>-4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_sail_base_Path_07" ID="{5B66E8AB-8EE9-4896-B95A-2CEAAF9E8CC7}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="2"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+														<Property Name="RandomZ" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>-4</YPos>
+															<ZPos>-4</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="amb_sail_detail" ID="{1F5C3956-BFF9-43AA-A049-C29EA5D9F9A5}" ShortID="434652105">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B2CC9A80-879F-4893-82C4-BA73A482F422}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{10A9EF61-AD4C-46DD-BAF6-2010B43EBF52}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2DF2B6AF-8674-4C67-9645-F7E3B8A263C9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-1200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9CB6E50D-EC46-43C0-B0FE-5C56360991BE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{755717F7-16EE-4559-A849-B0FD8FD93A83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_sail_leather" ID="{B3D1ACAA-0574-49B7-A6D3-98EA4CBF9073}" ShortID="490177785">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{903406C0-6B44-476D-AFCF-F31C593F6D60}" ShortID="1060176737" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_leather" ID="{BB5C5849-AE2F-4E89-8722-05C206C6B999}" ShortID="925649759">
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_leather.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{245F0D93-E928-42AB-BB96-4A2F3265ED0E}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_leather" ID="{BB5C5849-AE2F-4E89-8722-05C206C6B999}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_leather_01" ID="{ACFA270A-7873-4E45-AE66-526BB45A1EE0}" ShortID="972577182">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{C27568B0-9587-4554-BA4E-07C6CE16B2E6}" ShortID="565108790" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_leather" ID="{0C84ACA5-23E8-43CF-99A0-6FFD0192D637}" ShortID="692698716">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.75910788837618E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.147325285651505"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.19350186772138"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.63437828224566"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_leather.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{4DA848CF-4F8A-4AF8-88ED-9E77009FFA15}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_leather" ID="{0C84ACA5-23E8-43CF-99A0-6FFD0192D637}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_sail_leather_02" ID="{BAEF0651-D6EF-4904-9E71-5E3ECE8B4BEE}" ShortID="728414360">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{55027D1C-37A7-43F2-BF73-534246924416}" ShortID="141810943" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_sail_leather" ID="{E13579CF-6206-43AA-B57C-C9A17470E61D}" ShortID="229284216">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.57565095583388E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.207794619314436"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.58710225774555"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.41498240771259"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_sail\amb_sail_leather.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{A8AC8278-E83C-43E4-8F27-9EF38C861247}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_sail_leather" ID="{E13579CF-6206-43AA-B57C-C9A17470E61D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{707A01FA-D9E9-4DAE-A820-9557C262874B}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{2AE299BF-F168-453A-A923-4073E12A9A99}"/>
+							</PositioningInfo>
+						</BlendContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{31B61AED-6C3B-4507-A51E-7A0555BACCB6}"/>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

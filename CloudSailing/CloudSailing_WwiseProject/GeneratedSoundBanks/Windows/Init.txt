@@ -1,0 +1,22 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2137642026	wind_region			\Default Work Unit\wind_region	
+
+Switch	ID	Name	Switch Group			Notes
+	1935470627	light	wind_region			
+	2849147824	medium	wind_region			
+	3522403288	strong	wind_region			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	ambience			\Default Work Unit\Master Audio Bus\SFX\ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	511093792	3D			\Default Work Unit\Master Audio Bus\SFX\3D	
+	1069431850	player			\Default Work Unit\Master Audio Bus\SFX\player	
+	1551306167	ui			\Default Work Unit\Master Audio Bus\ui	
+	2607556080	menu			\Default Work Unit\Master Audio Bus\menu	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	music			\Default Work Unit\Master Audio Bus\music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

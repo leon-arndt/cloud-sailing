@@ -1,0 +1,2 @@
+C:\Users\Student\Perforce\stjastap_cloud_sailing\CloudSailing\Plugins\Wwise\Source\AudiokineticTools\AudiokineticTools.Build.cs
+C:\Users\Student\Perforce\stjastap_cloud_sailing\CloudSailing\Plugins\Wwise\Source\AkAudio\AkAudio.Build.cs

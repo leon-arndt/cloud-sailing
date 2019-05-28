@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{066CCC41-E2E7-4730-98CB-2FB912E512B9}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="obj_map" ID="{066CCC41-E2E7-4730-98CB-2FB912E512B9}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="obj_map" ID="{64ACAD30-7F44-43ED-ACBB-2EF48DA2175C}" ShortID="433857587">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{7ACBE2FE-2AD9-4BD7-9F69-D75696A36D68}" ShortID="826190909" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="obj_map_open" ID="{0DE64EF6-B4CF-4309-ABE2-F0B0D3C47F35}" ShortID="186089483">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2FC28F2B-8BDF-40DE-88D3-E2B22E08DEA6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1617C134-BA93-44E6-9EA7-3A79C832A79C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="object_map_open_01" ID="{632AC0C3-C031-46C5-9FC6-3B8C31A8F62C}" ShortID="740467890">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{A73E1ABE-5394-4EFA-9E2A-41A298AE1DE8}" ShortID="48256414" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="object_map_open_01" ID="{6D8484E0-4117-45B0-A844-41D1280BDAB5}" ShortID="783680536">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.548219178082192"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>object\object_map_open_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="object_map_open_01" ID="{6D8484E0-4117-45B0-A844-41D1280BDAB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="object_map_open_02" ID="{53CF7341-8932-4B04-9035-35A60F0EBE50}" ShortID="875325654">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{A9842FFF-2648-468D-AC57-40D4092DD361}" ShortID="165139259" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="object_map_open_01" ID="{3727032B-1402-49DC-97BF-314183A9C61B}" ShortID="719036096">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.470239726027397"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.236301369863013"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.938116438356165"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>object\object_map_open_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="object_map_open_01" ID="{3727032B-1402-49DC-97BF-314183A9C61B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="obj_map_close" ID="{A3519C78-F569-4364-BA9F-4EC9E75CA105}" ShortID="431093023">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{95175863-7666-4084-A3DF-A00E0DC3061E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{44FD5B4C-96B7-4024-BDB3-69846B916411}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="object_map_close_01" ID="{E9D397F4-009A-4699-BC27-C95858D25480}" ShortID="619767690">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{17D23704-71F5-4102-BCCD-06F7CBDA2943}" ShortID="529643650" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="object_map_close_01" ID="{4EFFB85C-8BD5-4FE8-8C49-49D786F17B7D}" ShortID="328084494">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.40259703196347E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.600649257990868"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.489529145262557"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.3484575841895"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>object\object_map_close_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="object_map_close_01" ID="{4EFFB85C-8BD5-4FE8-8C49-49D786F17B7D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="object_map_close_02" ID="{7C9E2428-258B-4AE7-81B2-682EFA2E5225}" ShortID="527588372">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{5FF270B8-4B34-48D0-A889-515C46E2A22C}" ShortID="583591319" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="object_map_close_01" ID="{B3E09397-519E-4323-A4F9-222E4665B0BF}" ShortID="839916211">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.80519406392694E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.444480450913242"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.165178545947489"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.931006349885846"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>object\object_map_close_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="object_map_close_01" ID="{B3E09397-519E-4323-A4F9-222E4665B0BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="object_map_close_03" ID="{A66AFAFD-0B52-4C59-A8FA-EE063964C253}" ShortID="903662986">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{FF1EA573-99D9-47E1-BA3C-8EBB46F79413}" ShortID="264559174" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="object_map_close_01" ID="{FA68C597-0081-4F39-A757-1E49E6532033}" ShortID="888019655">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.80519406392694E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.351379815924658"/>
+												<Property Name="FadeOutShape" Type="int16" Value="1"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.690746646689499"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>object\object_map_close_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="object_map_close_01" ID="{FA68C597-0081-4F39-A757-1E49E6532033}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

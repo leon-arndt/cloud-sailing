@@ -1,0 +1,3414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21C33AAA-2862-49C7-9A39-7E2F81520405}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="amb_wind" ID="{21C33AAA-2862-49C7-9A39-7E2F81520405}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="amb_wind" ID="{F7640C43-9A88-4EE5-BF5F-0EC41DCFC0EC}" ShortID="418544327">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="amb_wind" ID="{62517E55-CE19-40BC-B2B0-CA5B9E151F73}" ShortID="10317611">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="amb_wind_light" ID="{B45F3CCD-CEC2-4510-A102-A82532071657}" ShortID="204111428">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_light_base" ID="{05EDD1CE-7826-498A-A22C-4F7829C3653B}" ShortID="452735528">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5BECF112-4B81-488C-B590-35B1B438FF21}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6B76E94F-BE2C-4B20-95F2-97F13F83538B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base" ID="{79BDB26B-0353-4E76-818A-EC341A8A08F0}" ShortID="678032965">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base" ID="{5F5DF522-E53F-4828-951F-B90904B5DB58}" ShortID="341167001">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="5.13698630136986E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.10958904109595E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="564652636"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base" ID="{5F5DF522-E53F-4828-951F-B90904B5DB58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_light" ID="{E6961EC8-FE20-43A3-B3C3-11450178CBD1}" ShortID="119873057">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_light" ID="{F94726CE-B3DC-4803-A4AC-4A204D78953B}" ShortID="228157891">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="6.87123644406393E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.12274186643842E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_light.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="692820649"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{8AD7BDAA-769B-499E-8851-A0109311D571}"/>
+														<Position Name="" ID="{64614DEC-EED5-4BC6-ABFB-EC343EFFA3B3}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_light" ID="{F94726CE-B3DC-4803-A4AC-4A204D78953B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F5B9FD3B-8B41-4490-9FE6-112563A58268}"/>
+												<Position Name="" ID="{32889752-9723-4BDF-81E4-30DF0C0AF53A}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_light_long" ID="{09194323-8C27-4246-ADBB-36B38F1F0DC3}" ShortID="497837839">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8E2D7F0C-5EC2-49EF-9010-73B023049D47}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="80"/>
+																	<Property Name="Min" Type="Real64" Value="-80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7F188AD-8993-4ECC-A3A0-8A23EB50E36D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_long" ID="{4244ABE2-C73D-4944-B6B6-FCEF43172F4F}" ShortID="148667313">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{DEB26315-9680-4621-B0B1-49B4D3A38B96}" ShortID="25372902">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.7041712328767"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{2E3F2CB4-F38D-45C5-879D-E8F5CF4A8734}"/>
+														<Position Name="" ID="{0CCA5F11-057C-46DD-A0A8-1EB3BEB4E1F2}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{DEB26315-9680-4621-B0B1-49B4D3A38B96}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_01" ID="{2ADA190D-A4B3-4BF0-9E00-7BCE5E8367D3}" ShortID="712340684">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{6F8C2ADC-B0FA-4744-86C0-A9CABC032C2A}" ShortID="711503984">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.71759246575343"/>
+																<Property Name="TrimEnd" Type="Real64" Value="16.0588287671233"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{0D9EF6C5-61F6-4304-8DC6-D78DCCEBE1E0}"/>
+														<Position Name="" ID="{14264926-5FC0-4DD8-8F68-010B4BD29B28}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{6F8C2ADC-B0FA-4744-86C0-A9CABC032C2A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_02" ID="{BBC928A1-E34B-4C7D-9C77-3C98DAD1A8E1}" ShortID="930054800">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{270FD998-9FB4-4B11-AD67-324BA6048BAC}" ShortID="90255560">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="14.8115410958904"/>
+																<Property Name="TrimEnd" Type="Real64" Value="20.5022910958904"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{EB260FFD-C3F9-4225-8436-810D6CCF5E2D}"/>
+														<Position Name="" ID="{0554F68C-59C9-46FA-9D73-DD89D298CE07}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{270FD998-9FB4-4B11-AD67-324BA6048BAC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_03" ID="{99FF1B65-DA60-4E4E-B5B5-6DF49739FCA8}" ShortID="636628106">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{E9B2DD67-DADD-4328-BB8F-A82CDEA29823}" ShortID="312788670">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.74186301369863"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="21.359801369863"/>
+																<Property Name="TrimEnd" Type="Real64" Value="29.3112602739726"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{7A15AF7C-A456-4AC4-8499-7F2AD707565F}"/>
+														<Position Name="" ID="{78D05315-290C-4383-AF09-4A0421AEC68C}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{E9B2DD67-DADD-4328-BB8F-A82CDEA29823}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_04" ID="{09965570-EB58-4AF9-8ACD-0DE997372EFA}" ShortID="906346519">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{2474C954-428E-481A-9F82-0A82B56805C3}" ShortID="381757332">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.7150205479452"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.80639726027397"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="32.3515239726027"/>
+																<Property Name="TrimEnd" Type="Real64" Value="40.7707157534247"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{8B43D230-16C1-4FA9-9C88-CB712705AFB9}"/>
+														<Position Name="" ID="{DAC51F7A-0C7D-4AD3-A08C-F5858E1BE468}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{2474C954-428E-481A-9F82-0A82B56805C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{7BD6602B-550E-4283-89BF-B4F9B1E49325}"/>
+												<Position Name="" ID="{C415C260-4E9D-4B89-A902-7109F00432C9}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_wind_light_long_Path_01" ID="{E0A6181A-E470-4017-8627-3A49BB8A5722}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-16.4557</XPos>
+																	<YPos>74.84076</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>24.68355</XPos>
+																	<YPos>22.92994</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_02" ID="{E2697AB7-A1E8-4832-840D-DFC97258500E}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>76.11465</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-30.37975</XPos>
+																	<YPos>25.47771</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_03" ID="{ED395C40-FF6F-4187-B03F-A6A80F60C8B5}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.02532</XPos>
+																	<YPos>83.12102</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>17.08861</XPos>
+																	<YPos>47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>19.10828</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_04" ID="{3872307F-66E0-44D8-A584-87455804C0B0}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0.63291</XPos>
+																	<YPos>64.64968</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>32.27848</XPos>
+																	<YPos>62.42038</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_05" ID="{CC06656E-F5C4-4D0B-813E-63CA7FD02987}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10.12658</XPos>
+																	<YPos>72.29299</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>33.5443</XPos>
+																	<YPos>36.30573</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>22.78481</XPos>
+																	<YPos>17.19745</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_06" ID="{ABBBFA53-F519-42BC-A2DC-25EE63EF94ED}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25.94936</XPos>
+																	<YPos>-16.24204</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-8.22785</XPos>
+																	<YPos>-47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_07" ID="{D74AC447-C59D-4FDF-8CDA-C47FE0AB1610}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>6.96203</XPos>
+																	<YPos>-20.70063</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>31.01266</XPos>
+																	<YPos>-45.22293</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="amb_wind_medium" ID="{83B3E820-C72A-46BB-8D68-9A7B534EE973}" ShortID="360215047">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_medium" ID="{3F392E38-CF81-4BF9-AB10-4BE286E6F9F5}" ShortID="703248642">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B8552EB4-D5F2-48B3-8565-CE894CDB1B35}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C627DAC0-667C-464C-8D13-734DCDD54EEE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_medium_03" ID="{CD73ED0A-26DD-4EA3-82F0-BBA5222C3A44}" ShortID="119821979">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_03" ID="{4B4465B3-9ABC-4215-9A20-B67659987686}" ShortID="112766962">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.135005707762557"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="8.43785673515978E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="804390586"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{7F7E5CC3-7941-4222-90C7-00F700BE448B}"/>
+														<Position Name="" ID="{5457570B-62C6-404A-BA18-CB2B71449D24}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_03" ID="{4B4465B3-9ABC-4215-9A20-B67659987686}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_medium_01" ID="{C4560768-8038-443D-990B-A18B3315C148}" ShortID="85016374">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_01" ID="{31E67944-735D-4DB4-864E-B57470FD0203}" ShortID="360534278">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223458904109589"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="464950698"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{1316825A-B8BB-4514-8228-0A3CDC597F69}"/>
+														<Position Name="" ID="{E66E608A-E3B8-4A4F-BBC5-52C4088ACAA7}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_01" ID="{31E67944-735D-4DB4-864E-B57470FD0203}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_medium_02" ID="{F05BD3CA-68B3-4C0A-B111-5E2D3F2F2CAB}" ShortID="29773684">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_02" ID="{787F94FA-5313-4025-9039-B851A28FD260}" ShortID="597169408">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.184931506849315"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="808191446"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{96D16C73-7C1F-48E2-BEF6-5C4033273E2D}"/>
+														<Position Name="" ID="{60C67D05-CFF4-47D4-8CDE-D61B77EA6F49}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_02" ID="{787F94FA-5313-4025-9039-B851A28FD260}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{B0C71C23-0EA9-4861-8BB2-A3095A40B83E}"/>
+												<Position Name="" ID="{1D17EF00-C2A4-4E79-B3A2-E96EEEAEE5C5}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_medium_busy" ID="{2218DE9E-3598-4294-BAAF-1539DA2A6E9B}" ShortID="62513402">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C694208A-7795-4EA2-9272-7847C57F3B49}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1E982658-208B-4C13-8EF6-FD24B7004FBE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DCC6A356-8CF3-49D8-8D88-0123C892C98E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_busy_medium" ID="{7598EB2F-5A86-4500-BB21-888D7FC567CC}" ShortID="408072667">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{D64536BE-F11B-4481-A1BC-353F0FD4D678}" ShortID="598259813">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.21881246432648"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.14017940211187"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.64963684360731"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{140031A3-CD5A-4032-83CC-5D0BCDD0ADE6}"/>
+														<Position Name="" ID="{B7430BC5-B61F-48E0-A76D-6F472E6BA657}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{D64536BE-F11B-4481-A1BC-353F0FD4D678}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_medium_01" ID="{3DC9D7CA-0660-4E17-B72B-CB32C6C7E08E}" ShortID="594665369">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{3386FB20-1467-4B2B-B315-AAD19C659FF2}" ShortID="119746749">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.511114904394977"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.53334471318493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.53168725028539"/>
+																<Property Name="TrimEnd" Type="Real64" Value="17.1813240938927"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{D930F192-1547-40CE-A01B-02C93D47B1E5}"/>
+														<Position Name="" ID="{E138DC2E-A0F0-40C8-821D-938FEDD13E61}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{3386FB20-1467-4B2B-B315-AAD19C659FF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_medium_02" ID="{9A5E0578-5D4B-40F7-AE34-325A53CFF63D}" ShortID="590313489">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{2287F1D5-1969-4D07-91C1-C9DBD144300A}" ShortID="854845882">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.6683810288242"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.14017940211187"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="16.3556769406393"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{5AAC8DEC-2527-44AF-8637-5128D8C539DE}"/>
+														<Position Name="" ID="{2BF88A79-3B9F-44AB-B589-31C51AD3E03D}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{2287F1D5-1969-4D07-91C1-C9DBD144300A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{67111DC7-FDD8-4843-88E6-3B4E4E4BB450}"/>
+												<Position Name="" ID="{E678025B-4CED-437C-A5BA-B7F63F896A94}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="amb_wind_strong" ID="{3340F7AA-FF48-469D-8796-3D075F04BA93}" ShortID="1050008613">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_strong_base" ID="{E8294CAE-E02D-42D7-B060-E1CE26E2A09D}" ShortID="1044988605">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DE632E4B-024B-4701-871A-910CC86D355A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C5B4E268-CE32-4721-B64F-4BDD09224199}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_busy_strong" ID="{12555AB8-2AE4-4B30-911E-736709F1D1C7}" ShortID="900779144">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_strong" ID="{41AFAB49-3D8F-4F45-AE0E-4E95250A0255}" ShortID="374483085">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.56696546803653"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_strong.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="423608098"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{E633A2E4-8F5E-4DFB-99F4-9C6ECBB5EA68}"/>
+														<Position Name="" ID="{F571C8DD-2EF3-42D6-85B1-A262586D75EA}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_strong" ID="{41AFAB49-3D8F-4F45-AE0E-4E95250A0255}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E67A29D9-296F-4146-B808-03D9BC2F5E23}"/>
+												<Position Name="" ID="{E60BDDCD-4031-4A44-8596-479430498446}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_oneshot_long" ID="{97DDE354-433A-4226-93E8-C5B1CC93B83B}" ShortID="756855772">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5B648087-CEF9-4BA1-B0BF-C8D5529C94EC}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="80"/>
+																	<Property Name="Min" Type="Real64" Value="-80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{86BD50FD-7E6F-4F6B-9EBF-467ABE6053EE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_oneshot_strong_04" ID="{7288B271-A338-403F-BE33-E058B7BDEEBB}" ShortID="625587314">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_04" ID="{B17E5E82-17A4-4622-9777-D494BA974319}" ShortID="854078144">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{189EC769-7FDF-488E-8324-79440867E6B0}"/>
+														<Position Name="" ID="{8AA3A859-AECA-4130-B666-B9F7F79DF88A}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_04" ID="{B17E5E82-17A4-4622-9777-D494BA974319}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_02" ID="{B7E5C563-591F-4E6B-BFC5-78F27B94155D}" ShortID="10882272">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_02" ID="{6D9668C8-5D82-405D-B145-4998FC3010FE}" ShortID="973391077">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{021D1D69-F273-48C1-9FA0-28F761EDC876}"/>
+														<Position Name="" ID="{58C42B5E-84B6-473A-A6FA-347FDC04B840}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_02" ID="{6D9668C8-5D82-405D-B145-4998FC3010FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_03" ID="{67067817-99D0-4E70-BDC3-BDB0955705EB}" ShortID="809699725">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_03" ID="{C7B30FF2-C13B-4B98-B2B6-6A8636A87E32}" ShortID="409987218">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{6646725B-8072-4121-B202-04DA7B4E1658}"/>
+														<Position Name="" ID="{32CC6891-310E-4430-8CF9-E3CF6C3C8F58}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_03" ID="{C7B30FF2-C13B-4B98-B2B6-6A8636A87E32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_01" ID="{E23EECC6-7BB3-418D-AA1D-1C7FE4090072}" ShortID="788264517">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_01" ID="{965E178E-B5C6-4E6C-82BE-CEE0DC5D0C5F}" ShortID="605956925">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{95CD7B8F-5216-4CD4-BA4F-9E6F32C2F348}"/>
+														<Position Name="" ID="{A2F20E06-23C3-4EB3-BFC8-171A2672A458}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_01" ID="{965E178E-B5C6-4E6C-82BE-CEE0DC5D0C5F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EA7305A6-A5FB-450B-94A9-B737CC2232A1}"/>
+												<Position Name="" ID="{1BA55C40-75BE-45C8-9C52-BF73F2849A38}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_wind_light_long_Path" ID="{F792E9E8-335E-4307-8FD4-F554D8D98C52}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="9"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30.56962</XPos>
+																	<YPos>39.29937</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-31.64557</XPos>
+																	<YPos>26.11465</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_01" ID="{23F6A3B7-00E1-4296-9927-F272FA04184D}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-16.4557</XPos>
+																	<YPos>74.84076</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>24.68355</XPos>
+																	<YPos>22.92994</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_02" ID="{F3AAEE64-CFE0-4050-A036-ABFC81BEAE86}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>76.11465</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-30.37975</XPos>
+																	<YPos>25.47771</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_03" ID="{1F243ECD-1C45-4E70-8C0F-1EAD066B2F15}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.02532</XPos>
+																	<YPos>83.12102</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>17.08861</XPos>
+																	<YPos>47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>19.10828</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_04" ID="{77770F3E-D1D0-472C-8C29-938744F7D51B}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0.63291</XPos>
+																	<YPos>64.64968</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>32.27848</XPos>
+																	<YPos>62.42038</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_05" ID="{AB966660-980D-4DC9-9D2F-537367A81006}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10.12658</XPos>
+																	<YPos>72.29299</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>33.5443</XPos>
+																	<YPos>36.30573</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>22.78481</XPos>
+																	<YPos>17.19745</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_06" ID="{E3CA2E1D-AFF7-4B56-B599-54E53A835991}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25.94936</XPos>
+																	<YPos>-16.24204</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-8.22785</XPos>
+																	<YPos>-47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_07" ID="{1F3618B0-DB02-41F3-8BFC-76AA04C3E66B}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>6.96203</XPos>
+																	<YPos>-20.70063</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>31.01266</XPos>
+																	<YPos>-45.22293</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_strong_bright" ID="{16FA8B8F-D25A-4FE5-9F04-7B9B7E6D0D4B}" ShortID="354259023">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_strong_bright" ID="{00E35762-5EDF-4754-941A-0761BCC8351A}" ShortID="795322695">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_strong_bright" ID="{1AD8ADEC-C4DA-4A85-A8F8-67329723A5E8}" ShortID="768912929">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.37510502283105"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.03153881278539"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_strong_bright.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{F9E7F618-C2F8-4BC8-9509-D69213889517}"/>
+														<Position Name="" ID="{9D6F89DD-A8A8-4800-849D-36625653FED5}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_strong_bright" ID="{1AD8ADEC-C4DA-4A85-A8F8-67329723A5E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{F044ED6B-E995-413E-8976-6CFE6B66A539}"/>
+										<Position Name="" ID="{9A203047-FADA-4238-855A-D55454928939}"/>
+									</PositioningInfo>
+								</BlendContainer>
+								<RandomSequenceContainer Name="amb_wind_light_low" ID="{625D3971-21BB-4E49-98F1-1B934AC9CBF6}" ShortID="642811802">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{33FFE92E-D654-4CF4-B5A4-ECA607A42DF5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{559B2E37-44A5-4EB7-8E1C-E058C511E379}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2066D757-4F9B-4DBE-BD71-6406E52FA053}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_wind_base_low" ID="{0E222835-1DF1-43CB-94FB-7D0A05B73032}" ShortID="354118859">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wind_base_low" ID="{04B6EF85-C335-4967-A338-78269A8942DC}" ShortID="967064566">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.13898858447489"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.78305465182649"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\wind\amb_wind_base_low.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{2B8B1D48-FC3C-47D1-A15F-1ED4FE51097A}"/>
+												<Position Name="" ID="{17E4635A-3D58-4AD4-9D12-5A5E777F8701}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wind_base_low" ID="{04B6EF85-C335-4967-A338-78269A8942DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{008D300C-C71C-4524-988B-DC2E874C9E06}"/>
+										<Position Name="" ID="{DE99E49D-9AD9-4131-9B8B-8AAD475376EA}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="wind_region_blend_track" ID="{7BC43F57-B606-4934-93B4-BB175C828F42}" ShortID="976267753">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{C8967654-6AA5-499D-9D23-9D7BEE65355B}" ShortID="807250880">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}" WorkUnitID="{DEC73887-CC1C-4F3E-949E-700AD211CDD1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FC6BC70A-A048-4273-B51F-EA3764814C55}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>26</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}" WorkUnitID="{DEC73887-CC1C-4F3E-949E-700AD211CDD1}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_wind_light" ID="{B45F3CCD-CEC2-4510-A102-A82532071657}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>50</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_wind_medium" ID="{83B3E820-C72A-46BB-8D68-9A7B534EE973}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.0005</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>99.9995</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_wind_strong" ID="{3340F7AA-FF48-469D-8796-3D075F04BA93}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>50</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<SwitchContainer Name="amb_wind_02" ID="{834D9869-4E41-4CE3-BC90-3C77C75C8194}" ShortID="25271363">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}" WorkUnitID="{88F650F9-FC2D-4AA5-9A46-BD6C504F20F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="wind_region" ID="{0E996A16-677B-43B9-9698-2780CA74A3F2}" WorkUnitID="{88F650F9-FC2D-4AA5-9A46-BD6C504F20F3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="amb_wind_strong" ID="{BCF41EAE-3E58-40D3-B285-21996A262215}" ShortID="514431416">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_strong_base" ID="{59BB12F7-FFC3-4CEB-B1DC-B108ED41E0DC}" ShortID="622719922">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AECD4CF0-9018-4B17-A2F9-3C698F3F3AC7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E13BDA1A-B279-4D36-9F23-7AA916021557}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_busy_strong" ID="{7F0C71AA-00A5-4AE0-9914-862FD1A13B4A}" ShortID="964692879">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_strong" ID="{173515C0-2E1C-4CE0-AEEE-DA1179DAE3B8}" ShortID="423608098">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_strong.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="374483085"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{EA9CAAE8-1003-436D-A08A-72099F3DDD27}"/>
+														<Position Name="" ID="{C1B5AB1E-40A9-4046-B889-878F48650ED9}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_strong" ID="{173515C0-2E1C-4CE0-AEEE-DA1179DAE3B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DEBC1D8E-51AD-4BB4-A2CD-F516ADF71A94}"/>
+												<Position Name="" ID="{EF190E89-7D16-4512-BB1F-E6922ADA9C75}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_oneshot_long" ID="{2CBD0133-8FC4-47F5-AF9F-7D14870D9DB6}" ShortID="214429405">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1A4630FE-E773-4B72-AE41-099FB0549133}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="80"/>
+																	<Property Name="Min" Type="Real64" Value="-80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2DAB1BC5-5F87-489C-ABD4-9DAEB7916858}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_oneshot_strong_04" ID="{BB51782F-91CF-4F83-A0EE-7A13026C4397}" ShortID="126568317">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_04" ID="{50BDC7E3-E874-45BE-97D8-D1817C4FE720}" ShortID="765474195">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="854078144"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{973B1EF4-A41D-40EA-9EEC-4190DDF40CBE}"/>
+														<Position Name="" ID="{0B89A3A9-6E70-427C-ABC1-9A28355BB6FC}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_04" ID="{50BDC7E3-E874-45BE-97D8-D1817C4FE720}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_02" ID="{4BCFC8DE-842F-4537-95D3-11A0E8CB1FDF}" ShortID="1006185127">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_02" ID="{1860F573-27E4-46DF-9DA4-DCF49FCD4754}" ShortID="723234891">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="973391077"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{38CFF3FF-BE15-43CE-B413-F42327FEE427}"/>
+														<Position Name="" ID="{51DA503F-2D7B-41A7-9EB3-3C8FEA0664F9}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_02" ID="{1860F573-27E4-46DF-9DA4-DCF49FCD4754}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_03" ID="{B677EA4E-F9A9-40AE-93CD-B7AF859E3E4D}" ShortID="931595425">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_03" ID="{55DA4AC7-B5EC-40D4-9D64-919D65FB95EC}" ShortID="621171095">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="409987218"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{182515C6-A004-4F51-8DF0-3EDE3C099D69}"/>
+														<Position Name="" ID="{0BA1232A-87BA-4434-947D-94F735E15779}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_03" ID="{55DA4AC7-B5EC-40D4-9D64-919D65FB95EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_oneshot_strong_01" ID="{4DEEB58C-4655-424F-8C81-6871F638AE9E}" ShortID="175625312">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_oneshot_strong_01" ID="{5110C00F-BF7F-4457-9DC2-A7D6CA21E8E1}" ShortID="36543412">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_oneshot_strong_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="605956925"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{C9EDEBF9-3075-4B26-97F9-4B0B64DF6AE4}"/>
+														<Position Name="" ID="{AC05B658-ED7D-4631-BAB4-59126B456DA9}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_oneshot_strong_01" ID="{5110C00F-BF7F-4457-9DC2-A7D6CA21E8E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{4A0EBF90-F449-4210-B0D2-AFF1FF7631CE}"/>
+												<Position Name="" ID="{65A91C64-F1DA-4DAB-83C4-021516F9FA26}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_wind_light_long_Path" ID="{F447A532-91F0-41C5-8C70-7F0DF3864CA1}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="9"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30.56962</XPos>
+																	<YPos>39.29937</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-31.64557</XPos>
+																	<YPos>26.11465</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_01" ID="{6A41576E-EDDC-4139-AD5D-34F0DB07D515}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-16.4557</XPos>
+																	<YPos>74.84076</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>24.68355</XPos>
+																	<YPos>22.92994</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_02" ID="{A914E9F7-9C3B-4A2D-8AA0-EB871737BCFD}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>76.11465</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-30.37975</XPos>
+																	<YPos>25.47771</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_03" ID="{3B59B6D1-3027-4131-A991-1CA3E54D3B7D}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.02532</XPos>
+																	<YPos>83.12102</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>17.08861</XPos>
+																	<YPos>47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>19.10828</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_04" ID="{68D92D38-E60D-4031-9887-769F6BA519C5}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0.63291</XPos>
+																	<YPos>64.64968</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>32.27848</XPos>
+																	<YPos>62.42038</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_05" ID="{5760540E-8716-4200-959D-B911D1397DBE}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10.12658</XPos>
+																	<YPos>72.29299</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>33.5443</XPos>
+																	<YPos>36.30573</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>22.78481</XPos>
+																	<YPos>17.19745</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_06" ID="{28B4BC24-8F0C-4403-A35E-94CC5BCCD6F7}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25.94936</XPos>
+																	<YPos>-16.24204</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-8.22785</XPos>
+																	<YPos>-47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_07" ID="{36F0F9F2-B8FD-41AB-9283-04F8CEAD565C}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>6.96203</XPos>
+																	<YPos>-20.70063</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>31.01266</XPos>
+																	<YPos>-45.22293</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_strong_bright" ID="{C2D8930A-7D2C-4D86-AB8D-33123C7BE343}" ShortID="466345324">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_strong_bright" ID="{8B043051-D025-4CFE-8E1A-012FA63CA430}" ShortID="910416351">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_strong_bright" ID="{E81DA227-A74D-414C-9AB3-B8F0BCA2B537}" ShortID="259570675">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.37510502283105"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.03153881278539"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_strong_bright.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="768912929"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{1907EA57-172C-41E4-85AE-AF08F7E8072B}"/>
+														<Position Name="" ID="{4BBE0B78-45DB-4F77-B96C-4ACBCD9730ED}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_strong_bright" ID="{E81DA227-A74D-414C-9AB3-B8F0BCA2B537}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{4B694531-A4CF-45B3-A448-AF2A5CCE1968}"/>
+										<Position Name="" ID="{58CB232E-374A-4543-93E0-5478992599BD}"/>
+									</PositioningInfo>
+								</BlendContainer>
+								<BlendContainer Name="amb_wind_light" ID="{A62D0C1F-9A2B-4E05-B85B-6408656AC0CB}" ShortID="383004522">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_light_base" ID="{12AFF40C-A676-4673-987D-6E52712C10F0}" ShortID="3599343">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BA234DF7-A391-4BA3-AEE0-F5521C458979}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D45BEB9F-0226-4923-9CAE-DD674288830C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{60F6CA3D-1307-4F8F-B458-C2FBB8C59E15}" ShortID="440087709">
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{67A7F698-C2E8-4E71-A52D-534FA1DCAA98}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{F4CEF8E8-E587-4748-B72B-774E4DBCB56B}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>0</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Focus" ID="{2ED1AAAC-87DD-408E-BFDE-DCD05E9ACF8D}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>0</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base" ID="{D6D93031-63AD-4C9C-95B9-49507C8B58C8}" ShortID="166524498">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base" ID="{C4B7E1E1-F3A1-433B-9F29-83085DF9BF85}" ShortID="564652636">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="341167001"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base" ID="{C4B7E1E1-F3A1-433B-9F29-83085DF9BF85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_light" ID="{D5B3D9B7-293D-4AE4-87A1-8B5E02695D29}" ShortID="852675799">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_light" ID="{80021350-BF05-411A-BB53-3392DE1793EB}" ShortID="692820649">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_light.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="228157891"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{BCD7F2E9-693B-4C27-9EE6-AAB8102F701F}"/>
+														<Position Name="" ID="{C1E3A5F2-A3EF-49FF-9D5E-7358FFDEA73C}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_light" ID="{80021350-BF05-411A-BB53-3392DE1793EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{8572E85F-02CA-48AA-9932-294F70F07FF3}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-100"/>
+														<Property Name="PanY" Type="Real64" Value="68.0851063829787"/>
+													</PropertyList>
+												</Panner>
+												<Position Name="" ID="{AF5A9C3D-2F53-4E8C-8D9C-88CF9DEB901C}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_light_long" ID="{A53AC1F3-F966-463B-8422-BC01CF39B186}" ShortID="309366177">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5A3034E8-C3A7-4AF2-A166-650F534C2AED}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="80"/>
+																	<Property Name="Min" Type="Real64" Value="-80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{339338BA-2E56-4EDA-92ED-0FCB9A29C82E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_long" ID="{312220B3-A0B4-48CE-9078-9231FC34CD9C}" ShortID="296040292">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{1EB40913-D71E-49F4-998E-A621F01DD88A}" ShortID="300447801">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.7041712328767"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="25372902"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{2B23EF56-A9CB-41E3-9AC8-CB53EE1EA88F}"/>
+														<Position Name="" ID="{D733BC47-FBFE-4CEA-8C9A-2023CD9D39AF}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{1EB40913-D71E-49F4-998E-A621F01DD88A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_01" ID="{D418FEE6-CCF8-4131-A9F5-00412313E408}" ShortID="69549258">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{A39A6CE7-0767-4614-9F24-B96D42B2A4BD}" ShortID="738323922">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.71759246575343"/>
+																<Property Name="TrimEnd" Type="Real64" Value="16.0588287671233"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="711503984"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{087A0B23-5B81-40B0-A94C-4BEB1F69B40D}"/>
+														<Position Name="" ID="{0F97BD79-6A17-4C57-A5AE-2E666EAAD83D}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{A39A6CE7-0767-4614-9F24-B96D42B2A4BD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_02" ID="{585C581C-6AF2-40AF-A2AC-C4E22B71F207}" ShortID="93785759">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{5FC9A03E-C71A-493F-95E8-40A10E427F1E}" ShortID="733659440">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.26070890410959"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="14.8115410958904"/>
+																<Property Name="TrimEnd" Type="Real64" Value="20.5022910958904"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="90255560"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{1A49AE4D-AAD2-423F-9CEB-5811C2F58BEB}"/>
+														<Position Name="" ID="{1A9CE196-4A13-4A86-9F12-B2F49D338541}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{5FC9A03E-C71A-493F-95E8-40A10E427F1E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_03" ID="{5376EA8A-8E8E-4A11-A272-3C9FFB5F017A}" ShortID="540126461">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{F5E39642-4AD8-422D-9091-4AD35CDECEC4}" ShortID="896038743">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.09137671232877"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.74186301369863"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="21.359801369863"/>
+																<Property Name="TrimEnd" Type="Real64" Value="29.3112602739726"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="312788670"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{DCEF7787-AB37-4E5E-8F7E-8DAC0F2E18FF}"/>
+														<Position Name="" ID="{48E0416D-E70B-4C37-A5E8-BD70E4DD91D1}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{F5E39642-4AD8-422D-9091-4AD35CDECEC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_long_04" ID="{E5F1D258-79A4-424E-AD55-5DEC9AAA9769}" ShortID="113517428">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_long" ID="{0C7ECFDC-9833-4668-BFF2-E1C460DA0F2C}" ShortID="7169529">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.7150205479452"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.80639726027397"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="32.3515239726027"/>
+																<Property Name="TrimEnd" Type="Real64" Value="40.7707157534247"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_long.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="381757332"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{999F5136-3AC5-4CF4-A010-0B7BB14A8E4E}"/>
+														<Position Name="" ID="{C0F77FAA-1CEE-4394-8DA0-772F4D4F3F22}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_long" ID="{0C7ECFDC-9833-4668-BFF2-E1C460DA0F2C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{AD8DD0ED-3C29-4408-ACCC-016BCAB6E3CB}"/>
+												<Position Name="" ID="{1A7FE1C6-E9EC-4F62-85A7-F0B47A52A43C}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_wind_light_long_Path_01" ID="{C4C65C04-FE16-44FE-AF61-B3C4DABD326F}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-16.4557</XPos>
+																	<YPos>74.84076</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>24.68355</XPos>
+																	<YPos>22.92994</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_02" ID="{BC851487-DC72-46DD-BB0B-069F2EF3D502}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>76.11465</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-30.37975</XPos>
+																	<YPos>25.47771</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_03" ID="{39EDD71C-B4EE-4DC4-B034-043CC63867BB}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-12.02532</XPos>
+																	<YPos>83.12102</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>17.08861</XPos>
+																	<YPos>47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-12.65823</XPos>
+																	<YPos>19.10828</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_04" ID="{67E5774F-9F7C-4AA9-800D-A2E5B57B5B33}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0.63291</XPos>
+																	<YPos>64.64968</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>32.27848</XPos>
+																	<YPos>62.42038</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_05" ID="{8916F137-A11C-4DA8-80A6-3D9EBBA746AF}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10.12658</XPos>
+																	<YPos>72.29299</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>33.5443</XPos>
+																	<YPos>36.30573</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>22.78481</XPos>
+																	<YPos>17.19745</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_06" ID="{2752D096-492A-4EEF-A4C8-A6CE493879F9}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-25.94936</XPos>
+																	<YPos>-16.24204</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-8.22785</XPos>
+																	<YPos>-47.7707</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_wind_light_long_Path_07" ID="{25F43C6D-FA58-43A3-B7CF-6BFCAA7B15CE}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="10"/>
+																<Property Name="RandomY" Type="Real64" Value="10"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>6.96203</XPos>
+																	<YPos>-20.70063</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>31.01266</XPos>
+																	<YPos>-45.22293</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_light_low" ID="{B3EB6553-8C2E-4C84-988D-8A871B699D07}" ShortID="1067883537">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9A915B74-0CDC-4F63-966D-C4A4CDC20EBD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3E48840A-2714-4E91-8BF5-C3EEF3513ADF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F1979E7C-6CBF-4D20-B322-71D2F1080D41}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-6"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_low" ID="{E4500571-33B1-4B20-A74F-9C6D3E64DBBC}" ShortID="579738103">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_low" ID="{EBCB12FE-858A-4542-9512-FA2505E3C2B3}" ShortID="533935536">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.13898858447489"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.78305465182649"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_low.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="967064566"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{9B106559-5FC4-4546-9122-4873DC2AFD89}"/>
+														<Position Name="" ID="{F971B62D-ACB3-4159-AB2A-9A48C1EB4921}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_low" ID="{EBCB12FE-858A-4542-9512-FA2505E3C2B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{C2D2896B-34EB-403F-9E9A-4CEC2CBAD97B}"/>
+										<Position Name="" ID="{E0CE193B-029D-4C10-B537-4FC6C9BABB91}"/>
+									</PositioningInfo>
+								</BlendContainer>
+								<BlendContainer Name="amb_wind_medium" ID="{41E61A25-99AC-4CF0-845D-8DD6AD8F193F}" ShortID="57722899">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="amb_wind_medium" ID="{CFC267AF-1D09-43D9-9463-D1CF57E86C08}" ShortID="920837342">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{535EAE08-EDFB-41FE-8B77-FFD577FE0DC4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BE60E12C-5A95-47D0-A9F5-D704959C3300}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_base_medium_03" ID="{B815B78D-766F-4157-A593-448C006D5AE2}" ShortID="274276864">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_03" ID="{1D88D2CF-3B7D-4A0C-B1A4-649821F17541}" ShortID="804390586">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="112766962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{C1548F04-0436-4DEB-B571-6E9119D77340}"/>
+														<Position Name="" ID="{7123796B-28C9-4151-A91C-EC5552394E08}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_03" ID="{1D88D2CF-3B7D-4A0C-B1A4-649821F17541}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_medium_01" ID="{C966232B-658D-40C5-A50B-D7045804F499}" ShortID="998296969">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_01" ID="{AE6648B9-8242-4DD0-B1AC-35EA37688BD1}" ShortID="464950698">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="360534278"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{7A5D23B5-521D-4741-ADBA-7BB234E28187}"/>
+														<Position Name="" ID="{9328F894-02A9-4B8D-AEE9-F4EEE2CF9E2E}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_01" ID="{AE6648B9-8242-4DD0-B1AC-35EA37688BD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_base_medium_02" ID="{51B6B22C-FF09-4261-84B1-7D1564060141}" ShortID="695387541">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_base_medium_02" ID="{BD765718-0320-4F5C-B855-0AD001314FB9}" ShortID="808191446">
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_base_medium_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="597169408"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{0177D92A-1727-4561-AC36-BC761DBB5712}"/>
+														<Position Name="" ID="{AA83C5B9-CD4E-418E-834C-F0DDB11CEA87}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_base_medium_02" ID="{BD765718-0320-4F5C-B855-0AD001314FB9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DDC8E0E9-96B9-454D-8BF6-59956A12F138}"/>
+												<Position Name="" ID="{7F7C7A3D-8B97-4CB5-9207-375FE27BD94D}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="amb_wind_medium_busy" ID="{7DC2A872-ADEC-4929-9DD4-6DBC722BF959}" ShortID="859261547">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4D8C2F85-2645-401A-B0FE-6C6D06ABC846}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0362DF69-9090-4228-ABD7-7D8FD264C469}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D9C581A9-6133-4E65-94A2-CC4965726723}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="amb_wind_busy_medium" ID="{5C1D93D7-DC2F-4ABF-BC5F-8CAC78661DE5}" ShortID="899767546">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{6C84BC2E-3F9C-4421-9A29-DE7C11092EC8}" ShortID="206731121">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="1.21881246432648"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.14017940211187"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.64963684360731"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="598259813"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{4996B056-3FFE-45B0-9889-2FB38A28257C}"/>
+														<Position Name="" ID="{216C1B1D-9FCE-4AFE-9646-570593A04A31}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{6C84BC2E-3F9C-4421-9A29-DE7C11092EC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_medium_01" ID="{C1CFD88C-F26B-4C5A-B820-E67237AE5B7D}" ShortID="21209542">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{4277A343-59A9-4E00-B9C1-9CFA6A166722}" ShortID="466269251">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.511114904394977"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.53334471318493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.53168725028539"/>
+																<Property Name="TrimEnd" Type="Real64" Value="17.1813240938927"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="119746749"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{8BE8E1FF-CC94-4749-99FF-400C165C961B}"/>
+														<Position Name="" ID="{78EE5E12-F4C9-463D-9F74-1D1C6584D02F}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{4277A343-59A9-4E00-B9C1-9CFA6A166722}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="amb_wind_busy_medium_02" ID="{E1BBE073-DA7B-41C8-AF3E-23C68912B959}" ShortID="372261001">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="amb_wind_busy_medium" ID="{13C49D5B-31C1-4757-97E0-9E0F92220FEE}" ShortID="213095554">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.6683810288242"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.14017940211187"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="16.3556769406393"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>amb\wind\amb_wind_busy_medium.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="854845882"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{F0E6B654-25CE-42CC-B229-CA6AC03CCB8D}"/>
+														<Position Name="" ID="{A04792D4-66F7-4AA5-BA63-F31573327DD3}"/>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="amb_wind_busy_medium" ID="{13C49D5B-31C1-4757-97E0-9E0F92220FEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{30169C64-5B60-41E2-A560-D4AFF7F39078}"/>
+												<Position Name="" ID="{0389E5C0-9921-49CA-8FC2-FE62FFFF667E}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{39132609-B031-40B8-BA45-460460030629}"/>
+										<Position Name="" ID="{229BBE36-61AD-444E-A9B1-16BB02DD4764}"/>
+									</PositioningInfo>
+								</BlendContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="amb_wind_light" ID="{A62D0C1F-9A2B-4E05-B85B-6408656AC0CB}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="amb_wind_medium" ID="{41E61A25-99AC-4CF0-845D-8DD6AD8F193F}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="amb_wind_strong" ID="{BCF41EAE-3E58-40D3-B285-21996A262215}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}"/>
+										<ItemList>
+											<ItemRef Name="amb_wind_light" ID="{A62D0C1F-9A2B-4E05-B85B-6408656AC0CB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="medium" ID="{6015DB67-12AB-451B-81A2-33405096A6E1}"/>
+										<ItemList>
+											<ItemRef Name="amb_wind_medium" ID="{41E61A25-99AC-4CF0-845D-8DD6AD8F193F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="strong" ID="{83B035DA-8BD2-477C-8A58-BF52983D7437}"/>
+										<ItemList>
+											<ItemRef Name="amb_wind_strong" ID="{BCF41EAE-3E58-40D3-B285-21996A262215}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{99E990FF-64AC-41B6-BF20-AB4A1BBB88C4}"/>
+						<Position Name="" ID="{F7BCF0C3-1998-4661-8B56-78F98387A902}"/>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

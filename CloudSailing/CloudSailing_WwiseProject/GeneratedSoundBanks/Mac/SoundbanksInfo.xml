@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="29489552" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_Main</ObjectPath>
+			<ShortName>SoundBank_Main</ShortName>
+			<Path>SoundBank_Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3508922530" Name="Play_amb_sail" ObjectPath="\Events\Default Work Unit\amb\Play_amb_sail"/>
+				<Event Id="3578043392" Name="Play_amb_ship_wood_creak" ObjectPath="\Events\Default Work Unit\amb\Play_amb_ship_wood_creak"/>
+				<Event Id="2255457607" Name="Play_amb_wind" ObjectPath="\Events\Default Work Unit\amb\Play_amb_wind"/>
+				<Event Id="1116472709" Name="Play_c_evil_pelican_voc_cry" ObjectPath="\Events\Default Work Unit\character\evil_pelican\Play_c_evil_pelican_voc_cry"/>
+				<Event Id="363049873" Name="Play_c_magpie_voc_cry" ObjectPath="\Events\Default Work Unit\character\magpie\Play_c_magpie_voc_cry"/>
+				<Event Id="1917241241" Name="Play_c_magpie_voc_idle" ObjectPath="\Events\Default Work Unit\character\magpie\Play_c_magpie_voc_idle"/>
+				<Event Id="2632141450" Name="Play_c_player_fol_grab" ObjectPath="\Events\Default Work Unit\character\player\Play_c_player_fol_grab"/>
+				<Event Id="2738151287" Name="Play_mus_main_theme" ObjectPath="\Events\Default Work Unit\music\Play_mus_main_theme"/>
+				<Event Id="3329988455" Name="Play_obj_map_close" ObjectPath="\Events\Default Work Unit\object\Play_obj_map_close"/>
+				<Event Id="1250480657" Name="Play_obj_map_open" ObjectPath="\Events\Default Work Unit\object\Play_obj_map_open"/>
+				<Event Id="2837402735" Name="Play_obj_ship_wheel_start" ObjectPath="\Events\Default Work Unit\object\Play_obj_ship_wheel_start"/>
+				<Event Id="2378372469" Name="Play_obj_ship_wheel_stop" ObjectPath="\Events\Default Work Unit\object\Play_obj_ship_wheel_stop"/>
+				<Event Id="2578765554" Name="Play_snd_test" ObjectPath="\Events\Default Work Unit\Play_snd_test"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="25372902" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_long.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_long_F48D3EE1.wem</Path>
+				</File>
+				<File Id="35546395" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_start_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_start_01_5DB21414.wem</Path>
+				</File>
+				<File Id="55256953" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_01_D1B2D50E.wem</Path>
+				</File>
+				<File Id="80901641" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_5390CE44.wem</Path>
+				</File>
+				<File Id="81552751" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_stop_03.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_stop_03_9255C62D.wem</Path>
+				</File>
+				<File Id="83040302" Language="SFX">
+					<ShortName>character\player\player_fol_grab_01.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="90255560" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_long.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_long_31FB9C7B.wem</Path>
+				</File>
+				<File Id="96764349" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_011.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_011_6296B0F9.wem</Path>
+				</File>
+				<File Id="106915672" Language="SFX">
+					<ShortName>crush_box_004.wav</ShortName>
+					<Path>SFX\crush_box_004_69BE6C6D.wem</Path>
+				</File>
+				<File Id="107269154" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_screech_04.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_screech_04_6296B0F9.wem</Path>
+				</File>
+				<File Id="110039528" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_screech_02.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_screech_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="112766962" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_medium_03.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_medium_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="114135279" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_cry_04.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_cry_04_6296B0F9.wem</Path>
+				</File>
+				<File Id="119746749" Language="SFX">
+					<ShortName>amb\wind\amb_wind_busy_medium.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_busy_medium_A9AB2944.wem</Path>
+				</File>
+				<File Id="130046403" Language="SFX">
+					<ShortName>character\player\player_fol_grab_05.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_05_6296B0F9.wem</Path>
+				</File>
+				<File Id="134386206" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_033.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_033_6296B0F9.wem</Path>
+				</File>
+				<File Id="136842561" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_E2360BDF.wem</Path>
+				</File>
+				<File Id="147280103" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="156431887" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_1111.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_1111_6296B0F9.wem</Path>
+				</File>
+				<File Id="170221923" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_cry_04.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_cry_04_6296B0F9.wem</Path>
+				</File>
+				<File Id="174843137" Language="SFX">
+					<ShortName>object\object_ship_wheel_stop_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_stop_02_CA43E4A4.wem</Path>
+				</File>
+				<File Id="185198607" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_1212.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_1212_6296B0F9.wem</Path>
+				</File>
+				<File Id="214057130" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_8690BBD8.wem</Path>
+				</File>
+				<File Id="228157891" Language="SFX">
+					<ShortName>amb\wind\amb_wind_busy_light.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_busy_light_6296B0F9.wem</Path>
+				</File>
+				<File Id="229284216" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_leather.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_leather_75758299.wem</Path>
+				</File>
+				<File Id="235542044" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_start_03.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_start_03_6F048AD6.wem</Path>
+				</File>
+				<File Id="237043091" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_cry_01.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_cry_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="254684592" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_922BB41E.wem</Path>
+				</File>
+				<File Id="287892274" Language="SFX">
+					<ShortName>Cloud_Sailing_VR_Main_Theme_DRAFT_003_B.wav</ShortName>
+					<Path>SFX\Cloud_Sailing_VR_Main_Theme_DRAFT_003_B_69BE6C6D.wem</Path>
+				</File>
+				<File Id="305466638" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_screech_01.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_screech_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="311806304" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_A4AE664B.wem</Path>
+				</File>
+				<File Id="312788670" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_long.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_long_8D0EDB53.wem</Path>
+				</File>
+				<File Id="327894242" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_04.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_04_1B1D4D04.wem</Path>
+				</File>
+				<File Id="328084494" Language="SFX">
+					<ShortName>object\object_map_close_01.wav</ShortName>
+					<Path>SFX\object\object_map_close_01_719C391B.wem</Path>
+				</File>
+				<File Id="341167001" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_6296B0F9.wem</Path>
+				</File>
+				<File Id="345460583" Language="SFX">
+					<ShortName>object\object_ship_wheel_stop_03.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_stop_03_AE35160E.wem</Path>
+				</File>
+				<File Id="346247568" Language="SFX">
+					<ShortName>character\evil_pelican\c_evil_pelican_voc_cry.wav</ShortName>
+					<Path>SFX\character\evil_pelican\c_evil_pelican_voc_cry_6296B0F9.wem</Path>
+				</File>
+				<File Id="352374428" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_screech_03.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_screech_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="354259642" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_088.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_088_6296B0F9.wem</Path>
+				</File>
+				<File Id="360534278" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_medium_01.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_medium_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="368399429" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_C6023F18.wem</Path>
+				</File>
+				<File Id="374483085" Language="SFX">
+					<ShortName>amb\wind\amb_wind_busy_strong.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_busy_strong_6296B0F9.wem</Path>
+				</File>
+				<File Id="381757332" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_long.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_long_78073947.wem</Path>
+				</File>
+				<File Id="409987218" Language="SFX">
+					<ShortName>amb\wind\amb_wind_oneshot_strong_03.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_oneshot_strong_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="425762495" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_start_05.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_start_05_002F2182.wem</Path>
+				</File>
+				<File Id="433100029" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_02_1B58B487.wem</Path>
+				</File>
+				<File Id="449796068" Language="SFX">
+					<ShortName>character\player\player_fol_grab_02.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="460682997" Language="SFX">
+					<ShortName>object\object_ship_wheel_start_03.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_start_03_E49BD9A0.wem</Path>
+				</File>
+				<File Id="485629611" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_03.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_03_FCFF65DA.wem</Path>
+				</File>
+				<File Id="489034553" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_F590502A.wem</Path>
+				</File>
+				<File Id="498818189" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_099.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_099_6296B0F9.wem</Path>
+				</File>
+				<File Id="528398357" Language="SFX">
+					<ShortName>object\object_ship_wheel_stop_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_stop_02_DCCE2F50.wem</Path>
+				</File>
+				<File Id="538211963" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_stop_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_stop_02_3726DF80.wem</Path>
+				</File>
+				<File Id="541472971" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_6DF51E8E.wem</Path>
+				</File>
+				<File Id="551988423" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_stop_04.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_stop_04_9A4AA5F9.wem</Path>
+				</File>
+				<File Id="580422450" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_cry_02.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_cry_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="585848266" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_739A6DAF.wem</Path>
+				</File>
+				<File Id="597169408" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_medium_02.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_medium_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="598259813" Language="SFX">
+					<ShortName>amb\wind\amb_wind_busy_medium.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_busy_medium_67904A15.wem</Path>
+				</File>
+				<File Id="601252336" Language="SFX">
+					<ShortName>character\player\player_fol_grab_06.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_06_6296B0F9.wem</Path>
+				</File>
+				<File Id="605956925" Language="SFX">
+					<ShortName>amb\wind\amb_wind_oneshot_strong_01.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_oneshot_strong_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="618187684" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_cry_03.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_cry_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="621331327" Language="SFX">
+					<ShortName>character\player\player_fol_grab_04.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_04_6296B0F9.wem</Path>
+				</File>
+				<File Id="623457046" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_13FD4C87.wem</Path>
+				</File>
+				<File Id="630789538" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_cry_01.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_cry_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="648186861" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_622FF292.wem</Path>
+				</File>
+				<File Id="666953469" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_E236CCF0.wem</Path>
+				</File>
+				<File Id="669954480" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_E2B38865.wem</Path>
+				</File>
+				<File Id="674817241" Language="SFX">
+					<ShortName>object\object_ship_wheel_start_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_start_01_77545E1F.wem</Path>
+				</File>
+				<File Id="688710653" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_stop_05.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_stop_05_FB70AF37.wem</Path>
+				</File>
+				<File Id="692698716" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_leather.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_leather_775276CA.wem</Path>
+				</File>
+				<File Id="692904855" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_F12DCCF9.wem</Path>
+				</File>
+				<File Id="711503984" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_long.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_long_BF890458.wem</Path>
+				</File>
+				<File Id="719036096" Language="SFX">
+					<ShortName>object\object_map_open_01.wav</ShortName>
+					<Path>SFX\object\object_map_open_01_D7EEECAE.wem</Path>
+				</File>
+				<File Id="719193472" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_05.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_05_6EE46F48.wem</Path>
+				</File>
+				<File Id="723385490" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_cry_05.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_cry_05_6296B0F9.wem</Path>
+				</File>
+				<File Id="724583341" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_high_06.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_high_06_06212B96.wem</Path>
+				</File>
+				<File Id="745200262" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_cry_02.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_cry_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="748087386" Language="SFX">
+					<ShortName>object\object_ship_wheel_loop_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_loop_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="768912929" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_strong_bright.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_strong_bright_2AC2DD28.wem</Path>
+				</File>
+				<File Id="783680536" Language="SFX">
+					<ShortName>object\object_map_open_01.wav</ShortName>
+					<Path>SFX\object\object_map_open_01_2489CDFE.wem</Path>
+				</File>
+				<File Id="787485161" Language="SFX">
+					<ShortName>character\player\player_fol_grab_03.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="809484908" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_1010.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_1010_6296B0F9.wem</Path>
+				</File>
+				<File Id="839916211" Language="SFX">
+					<ShortName>object\object_map_close_01.wav</ShortName>
+					<Path>SFX\object\object_map_close_01_185CF178.wem</Path>
+				</File>
+				<File Id="842887804" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_077.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_077_6296B0F9.wem</Path>
+				</File>
+				<File Id="854078144" Language="SFX">
+					<ShortName>amb\wind\amb_wind_oneshot_strong_04.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_oneshot_strong_04_6296B0F9.wem</Path>
+				</File>
+				<File Id="854845882" Language="SFX">
+					<ShortName>amb\wind\amb_wind_busy_medium.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_busy_medium_ADC30C04.wem</Path>
+				</File>
+				<File Id="854856730" Language="SFX">
+					<ShortName>object\object_ship_wheel_stop_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_stop_01_494A58C8.wem</Path>
+				</File>
+				<File Id="859100778" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_base_oneshot.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_base_oneshot_50B8FC2C.wem</Path>
+				</File>
+				<File Id="865878306" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_start_04.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_start_04_E98526E2.wem</Path>
+				</File>
+				<File Id="875716566" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_066.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_066_6296B0F9.wem</Path>
+				</File>
+				<File Id="876056087" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_022.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_022_6296B0F9.wem</Path>
+				</File>
+				<File Id="888019655" Language="SFX">
+					<ShortName>object\object_map_close_01.wav</ShortName>
+					<Path>SFX\object\object_map_close_01_AA4FBE2F.wem</Path>
+				</File>
+				<File Id="925649759" Language="SFX">
+					<ShortName>amb\ship_sail\amb_sail_leather.wav</ShortName>
+					<Path>SFX\amb\ship_sail\amb_sail_leather_6296B0F9.wem</Path>
+				</File>
+				<File Id="934476241" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_055.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_055_6296B0F9.wem</Path>
+				</File>
+				<File Id="935884865" Language="SFX">
+					<ShortName>object\object_ship_wheel_start_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_start_02_9959C238.wem</Path>
+				</File>
+				<File Id="955300089" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_cry_03.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_cry_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="967064566" Language="SFX">
+					<ShortName>amb\wind\amb_wind_base_low.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_base_low_0AE7D668.wem</Path>
+				</File>
+				<File Id="973391077" Language="SFX">
+					<ShortName>amb\wind\amb_wind_oneshot_strong_02.wav</ShortName>
+					<Path>SFX\amb\wind\amb_wind_oneshot_strong_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="974049104" Language="SFX">
+					<ShortName>character\magpie\c_magpie_voc_idle_044.wav</ShortName>
+					<Path>SFX\character\magpie\c_magpie_voc_idle_044_6296B0F9.wem</Path>
+				</File>
+				<File Id="1000321126" Language="SFX">
+					<ShortName>character\player\player_fol_grab_07.wav</ShortName>
+					<Path>SFX\character\player\player_fol_grab_07_6296B0F9.wem</Path>
+				</File>
+				<File Id="1001998414" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_start_02.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_start_02_2A556190.wem</Path>
+				</File>
+				<File Id="1026564119" Language="SFX">
+					<ShortName>amb\ship_wood\amb_wood_creak_01.wav</ShortName>
+					<Path>SFX\amb\ship_wood\amb_wood_creak_01_8FC38932.wem</Path>
+				</File>
+				<File Id="1042533954" Language="SFX">
+					<ShortName>object\object_ship_wheel_squeak_stop_01.wav</ShortName>
+					<Path>SFX\object\object_ship_wheel_squeak_stop_01_448B050A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

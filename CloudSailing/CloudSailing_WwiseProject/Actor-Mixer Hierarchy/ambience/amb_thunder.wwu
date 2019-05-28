@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65E94D30-FA3A-4D20-9486-299EFDD5E38F}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="amb_thunder" ID="{65E94D30-FA3A-4D20-9486-299EFDD5E38F}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

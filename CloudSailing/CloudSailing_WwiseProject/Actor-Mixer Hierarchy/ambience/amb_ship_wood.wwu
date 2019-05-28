@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DEA4E7B-1B68-4DC5-90E1-49EA3C61229C}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="amb_ship_wood" ID="{0DEA4E7B-1B68-4DC5-90E1-49EA3C61229C}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="amb_ship_wood" ID="{09BE3BA5-5E50-421A-A0BA-AD769D2F7F4C}" ShortID="470169240">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="amb_ship_wood_creak" ID="{7229164E-CA65-415C-BF30-7B025501AD20}" ShortID="782894875">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="amb_ship_wood_creak_left" ID="{70F8B816-2A1E-4561-9485-746915E802DE}" ShortID="341572206">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1EFA3C2B-EB5E-4E58-83FA-77314D854E17}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{19302BE4-B4B6-46D0-ABED-55B9EAB18426}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{51D9CC30-C96E-42F1-9B90-27C2EE8EDFD7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{49FC2C37-73A4-4DDF-948F-FE5AFA9A7F86}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="amb_ship" ID="{49FF489A-388B-4BBD-A516-732CED3542AF}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_wood_creak_01" ID="{6CEEB930-B225-4B86-9E18-1B741F4BC709}" ShortID="988783790">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{6B4A008F-E7F7-4B2E-BE5B-75CED73D27B5}" ShortID="80901641">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.22623972602739"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{6B4A008F-E7F7-4B2E-BE5B-75CED73D27B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_02" ID="{E2D770B3-604D-4E08-9228-97D1FD847096}" ShortID="569591109">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F10CDF56-72C3-438E-91DC-F36A4911F720}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{45DA1FEA-90C7-4ED2-85AD-5C6ADD0957BC}" ShortID="541472971">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.146647260273973"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.537706621004566"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.58658904109589"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.99906579923106"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{45DA1FEA-90C7-4ED2-85AD-5C6ADD0957BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_03" ID="{8BDFFB69-0BD7-4F53-B3F2-EFB49334927C}" ShortID="1008942187">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0D33E75F-2348-4DBE-A548-8154D5553EA9}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{82207395-FE71-4C31-8F69-56C12471EFBB}" ShortID="666953469">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.204170288549703"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.912761289986907"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.56660715054525"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.91656607855059"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{82207395-FE71-4C31-8F69-56C12471EFBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_04" ID="{F2A3CCD5-E0C3-46C6-A3D8-A97AE48ACD9B}" ShortID="114650155">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{C687F973-B0F6-4D2E-9B1C-28DC2CA19C0E}" ShortID="136842561">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="7.03354634036746E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.68276505731948"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.11448173515982"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.6816898006825"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{C687F973-B0F6-4D2E-9B1C-28DC2CA19C0E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_05" ID="{8C826A83-779E-4DBD-A9C2-4E9E33B7C6BE}" ShortID="15620143">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{0E471596-8224-44A7-99F7-3957666F1BA2}" ShortID="214057130">
+													<PropertyList>
+														<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.559610787508266"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.5698553671415"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.2391430740798"/>
+														<Property Name="TrimEnd" Type="Real64" Value="12.6748487293238"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{0E471596-8224-44A7-99F7-3957666F1BA2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{0560270E-815E-4648-83AE-2EFB98FDB541}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="amb_ship_wood_creak_Path" ID="{43778C9D-5BAD-4E41-9BCF-CF2F359E630C}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="15"/>
+														<Property Name="RandomY" Type="Real64" Value="20"/>
+														<Property Name="RandomZ" Type="Real64" Value="15"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-30</XPos>
+															<YPos>35</YPos>
+															<ZPos>50</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_ship_wood_creak_Path_01" ID="{AEE57C14-0DC6-4BEA-B39D-11B24E93F9BA}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="15"/>
+														<Property Name="RandomY" Type="Real64" Value="20"/>
+														<Property Name="RandomZ" Type="Real64" Value="15"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-30</XPos>
+															<YPos>-35</YPos>
+															<ZPos>50</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="amb_ship_wood_creak_right" ID="{802865D5-CEBD-4688-BF6D-980A0FE2773A}" ShortID="634086896">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7806B6C4-78AE-449C-8C2F-21676348EF4C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6FDB0324-7B23-41AD-968C-508E6A6855A7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2D456CEA-B465-43AA-AA79-348BC7D95DBB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8A24D99B-11F8-4CA6-A955-9EDC4D8DA9A8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1251F6BC-8FF8-4B09-B1E0-A3D65FD452CD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="amb_wood_creak_06" ID="{3CC5F876-4BCA-4520-8AB6-4700B2BCFAC1}" ShortID="685645608">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{82EA71A6-E197-4E71-84FA-55F96D43B0AA}" ShortID="648186861">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.244637662052297"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="13.1351606240387"/>
+														<Property Name="TrimEnd" Type="Real64" Value="15.8533067442651"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{82EA71A6-E197-4E71-84FA-55F96D43B0AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_07" ID="{48C5F9B5-831D-48D0-8B6A-19205F8A53FB}" ShortID="380704989">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{90E00119-BAFD-47E7-84ED-70EE34FB43C6}" ShortID="692904855">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.752731267853219"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.282274225444956"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="14.0948929905515"/>
+														<Property Name="TrimEnd" Type="Real64" Value="16.0603078429248"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{A48122C1-6330-417F-9E3E-8898106B8ABA}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{CBA349EA-BC2A-42F5-8B50-DEDA095FC994}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_ship_wood_creak_Path_01" ID="{F84CBAB6-18D2-4E5A-81B4-6FCD9EDB8774}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>-35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{90E00119-BAFD-47E7-84ED-70EE34FB43C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_08" ID="{B5D9DCFE-947A-4CB0-B25A-BB53F408E664}" ShortID="642130041">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{B1B6E153-B017-4FEB-B054-543302C2D7B6}" ShortID="489034553">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.150546253570644"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.2984614370468"/>
+														<Property Name="FadeOutShape" Type="int16" Value="9"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="16.9364535266974"/>
+														<Property Name="TrimEnd" Type="Real64" Value="19.202960886212"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{44AC0BAC-B723-46DB-98FA-84CED504C019}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{29F56B77-5850-465F-8A9D-E578B027C838}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_ship_wood_creak_Path_01" ID="{8D2439D2-4D42-4C6F-A4A8-F15BC7726743}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>-35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{B1B6E153-B017-4FEB-B054-543302C2D7B6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_09" ID="{E52B0384-B23C-4CE7-9282-FC7C692FB386}" ShortID="849724904">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{E48E163D-EC20-48FC-BDA3-7B6D3A49CD45}" ShortID="1026564119">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.470457042408261"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884459239727532"/>
+														<Property Name="FadeOutShape" Type="int16" Value="9"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="19.3451935838277"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.8751568870909"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{0F25E649-08F2-4640-A7C2-1D3B68919F43}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{912D8513-7FAF-4FC9-B87D-B63247BD04CE}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_ship_wood_creak_Path_01" ID="{1EFE5BC6-A236-4E6D-AD14-EA27FD5C946D}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>-35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{E48E163D-EC20-48FC-BDA3-7B6D3A49CD45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="amb_wood_creak_10" ID="{1121C768-C9AB-479C-BE05-1AEF39B904AE}" ShortID="516370977">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="amb_wood_creak_01" ID="{838473E8-34FB-4C4B-AFD1-F3D213FF3583}" ShortID="311806304">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.846822676334872"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884459239727532"/>
+														<Property Name="FadeOutShape" Type="int16" Value="9"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="23.2405778949681"/>
+														<Property Name="TrimEnd" Type="Real64" Value="28.2169178187543"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb\ship_wood\amb_wood_creak_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{E2872A97-FBDC-463A-93A8-FDFD3291FA49}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="amb_ship_wood_creak_Path" ID="{1B950020-0193-42D2-ADCF-098A39A3D406}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="amb_ship_wood_creak_Path_01" ID="{42E4DC38-0F68-44E1-967C-B77E8C86C803}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="15"/>
+																<Property Name="RandomY" Type="Real64" Value="20"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>30</XPos>
+																	<YPos>-35</YPos>
+																	<ZPos>50</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="amb_wood_creak_01" ID="{838473E8-34FB-4C4B-AFD1-F3D213FF3583}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{6532FAFB-9EC0-4C2A-8E17-614FEB5F4066}">
+											<PropertyList>
+												<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="amb_ship_wood_creak_Path" ID="{82262C28-F776-420E-A732-04D3F9517205}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="15"/>
+														<Property Name="RandomY" Type="Real64" Value="20"/>
+														<Property Name="RandomZ" Type="Real64" Value="15"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>30</XPos>
+															<YPos>35</YPos>
+															<ZPos>50</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="amb_ship_wood_creak_Path_01" ID="{8A5D37DD-C8D9-48C4-87EC-E0CBE4AB5113}">
+													<PropertyList>
+														<Property Name="RandomX" Type="Real64" Value="15"/>
+														<Property Name="RandomY" Type="Real64" Value="20"/>
+														<Property Name="RandomZ" Type="Real64" Value="15"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>30</XPos>
+															<YPos>-35</YPos>
+															<ZPos>50</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{86D990F4-5B95-4C63-8C0B-704EDBBC59DC}"/>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

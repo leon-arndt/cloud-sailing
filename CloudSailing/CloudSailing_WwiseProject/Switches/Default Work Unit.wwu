@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88F650F9-FC2D-4AA5-9A46-BD6C504F20F3}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{88F650F9-FC2D-4AA5-9A46-BD6C504F20F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="wind_region" ID="{0E996A16-677B-43B9-9698-2780CA74A3F2}">
+					<ChildrenList>
+						<Switch Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}"/>
+						<Switch Name="medium" ID="{6015DB67-12AB-451B-81A2-33405096A6E1}"/>
+						<Switch Name="strong" ID="{83B035DA-8BD2-477C-8A58-BF52983D7437}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}"/>
+						<Curve Name="" ID="{FF3606FF-B03E-4DDA-9E99-1BB53D42325F}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

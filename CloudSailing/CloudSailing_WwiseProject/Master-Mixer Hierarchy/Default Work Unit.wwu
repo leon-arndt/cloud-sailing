@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{3DE392D4-1F6D-42A2-8F38-7D6EC52925E1}" WorkUnitID="{04D1669C-1D47-427B-B8CB-4DB0FA8DBA93}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="music" ID="{FC07B234-4D75-43D4-83CD-199B8C48A628}"/>
+						<Bus Name="ui" ID="{B6D8DF63-23E9-49D3-A2EF-1DAB0D73DC23}"/>
+						<Bus Name="menu" ID="{A8328420-49F0-46E8-984E-2BF3AB6BF81C}"/>
+						<Bus Name="SFX" ID="{88196A46-F46C-412C-A3CB-D738E7ED98E9}">
+							<ChildrenList>
+								<Bus Name="ambience" ID="{17BC6563-BF00-4F7E-B7DB-2A0817FA0AF4}"/>
+								<Bus Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>64</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Mixer">
+											<Custom>
+												<Effect Name="Oculus_Spatializer_(Custom)" ID="{C6FDA5E2-10E5-43E2-9FC3-36314CC696A1}" ShortID="525979189" PluginName="Oculus Spatializer" CompanyID="266" PluginID="146" PluginType="6">
+													<PropertyList>
+														<Property Name="Gain" Type="Real32" Value="6"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="player" ID="{B7E5D670-FCAB-401D-B71A-B9BED2D83D66}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

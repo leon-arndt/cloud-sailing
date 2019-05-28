@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06B1C516-8297-423A-BF21-64BA39AE4568}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{06B1C516-8297-423A-BF21-64BA39AE4568}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="session_ambience" ID="{25A97946-4841-4CE2-82A8-C524DA62E403}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_amb_wind" ID="{3F4D9D5E-293F-43F1-B43A-95830619F449}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_ship_wood_creak" ID="{9F2D02D1-CD5C-4D5C-A52E-5DF3C78F839A}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_sail" ID="{3B974F18-8F82-46A3-80C9-FFBF9102C3F0}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="session_object" ID="{7266CD52-76E7-4AA5-A5EA-B81DC5497B51}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="session_all" ID="{847F4D6B-00A1-447C-AEE1-E7E446295819}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_amb_sail" ID="{3B974F18-8F82-46A3-80C9-FFBF9102C3F0}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_c_player_fol_grab" ID="{28F3999B-59A8-4E08-8E47-BCD311522086}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_ship_wood_creak" ID="{9F2D02D1-CD5C-4D5C-A52E-5DF3C78F839A}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_obj_ship_wheel_start" ID="{89098A17-4970-4E59-BDDB-77D72A34F251}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_amb_wind" ID="{3F4D9D5E-293F-43F1-B43A-95830619F449}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_obj_ship_wheel_stop" ID="{36480C78-77D1-458D-90AF-2E1939545B7C}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_obj_map_close" ID="{C07917FC-E963-4631-9CE1-1CE815254AE7}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_c_magpie_voc_idle" ID="{0F6ABB4B-59E4-4B17-B2E4-0F0867905FCD}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_obj_map_open" ID="{5B6CE57D-37CA-43B6-9C0F-99583D8976C5}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_c_magpie_voc_cry" ID="{D6979C43-2CD5-4F4C-943B-7259520B1E08}" WorkUnitID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="light" ID="{3D275B64-A311-4100-8977-E1B6E7D43C0F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

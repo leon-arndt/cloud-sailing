@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C562367-C2C3-44C4-8BA5-3AE3FBCBFC7A}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="obj_ship_wheel" ID="{6C562367-C2C3-44C4-8BA5-3AE3FBCBFC7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="obj_ship_wheel" ID="{F186279C-01FF-45DD-8E08-5F4E31B569F1}" ShortID="504154960">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AttachableMixerInput">
+							<Custom>
+								<Effect Name="Oculus Spatializer (Attached)" ID="{C09EA442-43F4-4795-897F-325B44FE50B1}" ShortID="150551640" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+							</Custom>
+						</Reference>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="obj_ship_wheel_start" ID="{AF0DB395-EA39-4FDC-A5DB-42257634D71A}" ShortID="588084497">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="obj_ship_wheel_start" ID="{2D6564B4-3F30-4709-B05A-0AB54842B68B}" ShortID="431484756">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6D3C8C4C-335E-4468-98D0-9A65080A8D70}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-180"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0DF0F70E-8D0A-4F41-B8EB-E47CA19F3DCA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ADA91846-B9A2-4697-A7EF-5F9F7B655ED0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{80399871-72AD-4E18-8842-F3FCA88531F3}" ShortID="118098882" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_start_01" ID="{65842F33-AAAF-4E78-9995-C957DEF31C16}" ShortID="192611580">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{A5B7477D-E322-45FE-8A44-DD3B0102A253}" ShortID="606234307" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_start_01" ID="{835843D2-314A-489B-B478-5E534E6B1490}" ShortID="674817241">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.47371575342465E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.593691780821918"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_start_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_start_01" ID="{835843D2-314A-489B-B478-5E534E6B1490}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_start_02" ID="{46CF30CE-7BAD-4891-9724-D6F1EE278436}" ShortID="588583324">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_start_02" ID="{5C4E25CC-443D-4EF9-B30E-2D68F49B3062}" ShortID="935884865">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.12328767123288E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.301506849315068"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_start_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_start_02" ID="{5C4E25CC-443D-4EF9-B30E-2D68F49B3062}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_start_03" ID="{F19CF8E7-C6DB-410E-9054-AA461E5118EE}" ShortID="849375410">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_start_03" ID="{3C3047BB-0A05-42C6-8E62-80EB42F4465C}" ShortID="460682997">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.88184931506849E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.15861301369863"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_start_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_start_03" ID="{3C3047BB-0A05-42C6-8E62-80EB42F4465C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="obj_ship_wheel_loop" ID="{D8DFF274-4499-4C3A-A25F-99E0F9973C01}" ShortID="341938664">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5738E132-C8E8-49B4-AB69-C0847C8E828B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-60"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_loop_01" ID="{C5179691-2045-4972-860A-AA2E3B56CE36}" ShortID="272454789">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{0C6D5C45-1EF7-438B-8697-BFF33D2A6D0E}" ShortID="650807635" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_01" ID="{12BC20A3-6CA7-4419-A080-B03405E93417}" ShortID="748087386">
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_01" ID="{12BC20A3-6CA7-4419-A080-B03405E93417}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_02" ID="{98AB3E51-D8A1-44FC-B523-40126AC43634}" ShortID="646258596">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_02" ID="{32BA07C4-7E2E-4052-91A7-87CEC77E5279}" ShortID="147280103">
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_02" ID="{32BA07C4-7E2E-4052-91A7-87CEC77E5279}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="obj_ship_wheel_loop_high" ID="{3F45A5E8-BCA9-4EFE-890A-866F4998A07E}" ShortID="333864981">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6FDEF6DA-E52F-48D8-A8D4-F6345F084CE9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{6583BB27-7450-41CA-AEC8-51FE183C8F8E}" ShortID="331294645" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_loop_high_01" ID="{6D4C9B71-5E43-473A-8049-60AB61002056}" ShortID="575345356">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{0E6A5126-F77C-4C85-A0AD-0BD445983C11}" ShortID="559008597" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_01" ID="{E8B2B02F-14FB-4A08-B3F6-8F69751B9F48}" ShortID="55256953">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.20200128424658E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.62893478881278E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.12320205479452E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.15272046232877"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_01" ID="{E8B2B02F-14FB-4A08-B3F6-8F69751B9F48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_high_02" ID="{851B87DD-0E1C-4C2E-B27B-557FDF6DF536}" ShortID="360790852">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_02" ID="{318F4AE4-1AD3-484E-B07A-C96F502E2104}" ShortID="433100029">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.36172945205479E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.31075984589041"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_02" ID="{318F4AE4-1AD3-484E-B07A-C96F502E2104}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_high_03" ID="{8CA0CF2C-4C26-46FE-90C8-E0765C8D01C1}" ShortID="837449591">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_03" ID="{B0A69C2D-4388-47FB-8AFA-4682C455CD71}" ShortID="485629611">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.97260273972603E-03"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.14041095890409E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.58904109589041E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.24046232876712"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_03" ID="{B0A69C2D-4388-47FB-8AFA-4682C455CD71}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_high_04" ID="{76CAA9F6-3F4E-4B49-88E5-D6CC85C5A4F1}" ShortID="103826234">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_04" ID="{1430914F-9CFD-48DF-A103-43353C78400F}" ShortID="327894242">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.018072203196347"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.25902539954337E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.51805079908676E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.25827714754566"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_04" ID="{1430914F-9CFD-48DF-A103-43353C78400F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_high_05" ID="{DBB7AE40-6D3C-4C35-B71D-6D636C900C7D}" ShortID="348899876">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_05" ID="{043E17DF-5D70-436A-9C4F-9F20A4CB788A}" ShortID="719193472">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.07876712328767E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.02054794520548E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.45205479452055E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.19095890410959"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_05" ID="{043E17DF-5D70-436A-9C4F-9F20A4CB788A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_loop_high_06" ID="{35B7BCF4-87F2-4287-9CD1-28A951DDA094}" ShortID="545519985">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_loop_high_06" ID="{4152AAE4-1170-4E7C-BE86-122E234A136F}" ShortID="724583341">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.016986301369863"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.82191780821917E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.27397260273973E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.19753424657534"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_loop_high_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_loop_high_06" ID="{4152AAE4-1170-4E7C-BE86-122E234A136F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="obj_ship_wheel_squeak_start" ID="{FF009CD4-27D1-45B9-857E-A02D609D175F}" ShortID="931579530">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CB80A9E4-4CC7-48FC-827A-B2711E5C4523}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{74AD21C0-0891-4B2B-BF22-20FC028EDDF5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C4671F0-B877-4B3A-A4B4-F66AC37AB5F6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{38351EDC-1A93-4F95-BC34-F4B956AC376C}" ShortID="733002394" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_squeak_start_01" ID="{08A38F08-B739-4AD2-B59E-86F28A7E6EB9}" ShortID="970306961">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{A450AC25-E062-43AE-8804-74CCE914879B}" ShortID="314633748" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_start_01" ID="{692FF024-9D2F-4DB0-9A5B-3B91776D800C}" ShortID="35546395">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.99315068493151E-03"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.117465753424657"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.27739726027397E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_start_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_start_01" ID="{692FF024-9D2F-4DB0-9A5B-3B91776D800C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_start_02" ID="{596ECB40-8452-4B06-85C3-07A002E66F7D}" ShortID="231521279">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_start_02" ID="{0C03D6F3-FBCD-4F6D-B864-570B8121FD65}" ShortID="1001998414">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.55308219178082E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.30993150684932E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.80821917808218E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.70513698630137"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_start_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_start_02" ID="{0C03D6F3-FBCD-4F6D-B864-570B8121FD65}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_start_03" ID="{CA210CF4-1D83-47FB-A5BB-A4F6DBE1E6B2}" ShortID="815595386">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_start_03" ID="{1884C86A-032C-44C1-85A6-E61B80D67001}" ShortID="235542044">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.45205479452055E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.08561643835616E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.029041095890411"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.945650684931507"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_start_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_start_03" ID="{1884C86A-032C-44C1-85A6-E61B80D67001}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_start_04" ID="{F462818F-4244-4F60-988F-4363CA2B7D2F}" ShortID="967805340">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_start_04" ID="{18455C78-C3BC-4F6C-93D2-C1F44D88A332}" ShortID="865878306">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.20547945205479E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.19178082191782E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.52054794520548E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.760890410958904"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_start_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_start_04" ID="{18455C78-C3BC-4F6C-93D2-C1F44D88A332}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_start_05" ID="{9557A1AD-F9E4-43F0-8870-4A01EA965B37}" ShortID="745219700">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_start_05" ID="{38A0D44E-7050-43FA-A9B5-83141F0FCD22}" ShortID="425762495">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.28424657534246E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.062568493150685"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="9.93150684931507E-03"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.514452054794521"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_start_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_start_05" ID="{38A0D44E-7050-43FA-A9B5-83141F0FCD22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="obj_ship_wheel_stop" ID="{C4129029-25C6-4383-AD5E-1C5ABA41526A}" ShortID="720289311">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="obj_ship_wheel_squeak_stop" ID="{6188966E-535A-4A35-9C77-C6416D3F84DC}" ShortID="121845821">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D3E69936-E429-4714-B911-90B75FAA1D27}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-250"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D3837CBF-A193-4383-ABBF-30106507BAA2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="AttachableMixerInput">
+											<Custom>
+												<Effect Name="Oculus Spatializer (Attached)" ID="{C6616FD7-21F4-4554-A5BC-1D337188B8C6}" ShortID="215319530" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_squeak_stop_01" ID="{AB9B6240-5632-456F-9382-29E8FFB1645F}" ShortID="507236206">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{50A3C092-420B-4341-8820-E01CE5975CE3}" ShortID="117189309" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_stop_01" ID="{C65DD1DC-FAFE-4775-B9F9-1D26E2B47C61}" ShortID="1042533954">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.91095890410959E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.154965753424658"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.79794520547945E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.446917808219178"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_stop_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_stop_01" ID="{C65DD1DC-FAFE-4775-B9F9-1D26E2B47C61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_stop_02" ID="{973AC69C-8C37-43A3-BFC4-69BEADCF9B7E}" ShortID="916941590">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_stop_02" ID="{CF8A4D84-5FC7-4E09-AE88-A4A89642C626}" ShortID="538211963">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.58219178082192E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.056986301369863"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.20547945205479E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_stop_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_stop_02" ID="{CF8A4D84-5FC7-4E09-AE88-A4A89642C626}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_stop_03" ID="{4D71C515-9BBB-47D4-A8B1-AF28CE4DBC6D}" ShortID="397526141">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_stop_03" ID="{67CA2C10-0807-4745-9F96-B6441DCE5C01}" ShortID="81552751">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.42465753424657E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.135616438356164"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.08219178082192E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.63"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_stop_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_stop_03" ID="{67CA2C10-0807-4745-9F96-B6441DCE5C01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_stop_04" ID="{F962C871-E981-4579-99A0-92E7C7D5E605}" ShortID="373855884">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_stop_04" ID="{8DDFEA5F-1280-4ABF-B6CD-A1E3D39DC910}" ShortID="551988423">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.49315068493151E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.16708904109589"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.16095890410959E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.695034246575342"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_stop_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_stop_04" ID="{8DDFEA5F-1280-4ABF-B6CD-A1E3D39DC910}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_squeak_stop_05" ID="{B0452554-78A2-485C-97A5-A5B042F08578}" ShortID="729778423">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_squeak_stop_05" ID="{0E095D89-0BCD-4CE1-9A69-142F0B2464E6}" ShortID="688710653">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.94520547945205E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.257671232876712"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.08219178082192E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.594246575342466"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_squeak_stop_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_squeak_stop_05" ID="{0E095D89-0BCD-4CE1-9A69-142F0B2464E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="obj_ship_wheel_stop" ID="{F0CD1EC4-15DC-409D-A4E8-95B15FB45EA8}" ShortID="402707443">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F8DDAA14-F227-4913-8B88-22C1FCB78DCF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{107D1F88-0B8C-428D-8575-33FBE62747A2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="object_ship_wheel_stop_01" ID="{54EEE49F-9760-4B88-A619-96FE7016ACA3}" ShortID="433461423">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="AttachableMixerInput">
+													<Custom>
+														<Effect Name="Oculus Spatializer (Attached)" ID="{59E99991-4FB9-42B0-A203-1D2C637EF55B}" ShortID="694744754" PluginName="AttachableMixerInput" CompanyID="266" PluginID="501" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_stop_01" ID="{1238D428-A8E4-4928-A74C-6B8F936D536E}" ShortID="854856730">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.026541095890411"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.285582191780822"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.60958904109589E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.540376712328767"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_stop_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_stop_01" ID="{1238D428-A8E4-4928-A74C-6B8F936D536E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_stop_02" ID="{D8012CCD-6AE0-45B8-80F6-7AF3BA11261B}" ShortID="82802288">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_stop_02" ID="{C59A6B67-9C81-446D-8E52-E31C0F98004E}" ShortID="528398357">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.31849315068493E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.414383561643836"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.31849315068493E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.540582191780821"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_stop_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_stop_02" ID="{C59A6B67-9C81-446D-8E52-E31C0F98004E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_stop_03" ID="{5F4BA512-76EA-4E6C-86BD-571E03A44A07}" ShortID="41614872">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_stop_03" ID="{CEDB4EED-4967-441C-A566-7F46F254F953}" ShortID="345460583">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.42294520547945E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.492842465753424"/>
+														<Property Name="FadeOutShape" Type="int16" Value="7"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.31849315068497E-03"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.621318493150685"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_stop_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_stop_03" ID="{CEDB4EED-4967-441C-A566-7F46F254F953}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="object_ship_wheel_stop_04" ID="{9149918B-C995-415E-94F8-94A2E2C968BA}" ShortID="591195727">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="object_ship_50" ID="{C21EF628-10DC-4A66-8FC0-7D3C02F576EC}" WorkUnitID="{3B3BF55D-9806-4E4D-8C8A-FC8DB62BF7AE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D" ID="{9B9B573B-204B-45C9-BDC1-1C79D7321791}" WorkUnitID="{23EAA9CB-3F54-4FA7-B339-67278AFC12A1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="object_ship_wheel_stop_02" ID="{78F3B093-629D-4C85-948C-7FE97FD98E19}" ShortID="174843137">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="8.66438356164384E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.372945205479453"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.337157534246576"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.857020547945204"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>object\object_ship_wheel_stop_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="object_ship_wheel_stop_02" ID="{78F3B093-629D-4C85-948C-7FE97FD98E19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

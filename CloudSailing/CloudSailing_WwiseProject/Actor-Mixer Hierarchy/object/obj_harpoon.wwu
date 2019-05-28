@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{056A72CB-AF39-4307-A55C-92EB0BA2620C}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="obj_harpoon" ID="{056A72CB-AF39-4307-A55C-92EB0BA2620C}" PersistMode="Standalone"/>
+	</AudioObjects>
+</WwiseDocument>

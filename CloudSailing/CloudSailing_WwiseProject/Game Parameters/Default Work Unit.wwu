@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DEC73887-CC1C-4F3E-949E-700AD211CDD1}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{DEC73887-CC1C-4F3E-949E-700AD211CDD1}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="wind_strength" ID="{EF3B6E01-DC46-404C-987A-3ED1B28C2520}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5E395107-488C-4044-9E6A-8B7B75A5ACF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_snd_test" ID="{1D621743-14FB-4A98-93F6-05A0EE9C4304}">
+					<ChildrenList>
+						<Action Name="" ID="{175F4B37-F0EE-458A-B498-F9B4402BD1D2}" ShortID="242084773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="snd_test" ID="{CF989164-FDC2-4142-9024-AFDC30FA916A}" WorkUnitID="{22C8E7EC-EBA6-42D8-BB94-7D9C0300C377}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="amb" ID="{ACEA82C0-2337-4608-AE30-D9C95DF99C98}" ShortID="417205169">
+					<ChildrenList>
+						<Event Name="Play_amb_wind" ID="{3F4D9D5E-293F-43F1-B43A-95830619F449}">
+							<ChildrenList>
+								<Action Name="" ID="{DB86DD49-66D5-46C9-A206-7854B6D3F38A}" ShortID="159985634">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_wind" ID="{62517E55-CE19-40BC-B2B0-CA5B9E151F73}" WorkUnitID="{21C33AAA-2862-49C7-9A39-7E2F81520405}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C82AE627-C7CE-4327-9A69-7E2A6047E9A6}" ShortID="9379064">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_wind_02" ID="{834D9869-4E41-4CE3-BC90-3C77C75C8194}" WorkUnitID="{21C33AAA-2862-49C7-9A39-7E2F81520405}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_amb_ship_wood_creak" ID="{9F2D02D1-CD5C-4D5C-A52E-5DF3C78F839A}">
+							<ChildrenList>
+								<Action Name="" ID="{393A289F-261A-4F37-8B0D-B7933FDD60F3}" ShortID="801963698">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_ship_wood_creak" ID="{7229164E-CA65-415C-BF30-7B025501AD20}" WorkUnitID="{0DEA4E7B-1B68-4DC5-90E1-49EA3C61229C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_amb_sail" ID="{3B974F18-8F82-46A3-80C9-FFBF9102C3F0}">
+							<ChildrenList>
+								<Action Name="" ID="{40D1B432-E160-4521-A3A9-45850AA37392}" ShortID="738752493">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_sail" ID="{FE63B734-5636-4B7D-956E-B903366E957E}" WorkUnitID="{5DCF140F-D33D-48FD-847D-AEB93F339DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="environment" ID="{9A33C531-23D2-496C-9016-7C8290BEB60D}" ShortID="51319778"/>
+				<Folder Name="menu" ID="{328F3BAE-5263-4B7F-827F-D47FABA83783}" ShortID="290467168"/>
+				<Folder Name="ui" ID="{D875763C-F819-44F8-A809-BB22D645A7FC}" ShortID="219141399"/>
+				<Folder Name="music" ID="{E6CCEBEA-8163-408E-836D-CF6475EE977E}" ShortID="794695224">
+					<ChildrenList>
+						<Event Name="Play_mus_main_theme" ID="{EB6060A9-EFD0-461E-B7D0-2058378FABD8}">
+							<ChildrenList>
+								<Action Name="" ID="{59FE929A-3096-408D-95EE-A25A98E3982A}" ShortID="693140610">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mus_main_theme" ID="{54D6C591-8B42-4DEE-883E-3E626FB1241F}" WorkUnitID="{22C8E7EC-EBA6-42D8-BB94-7D9C0300C377}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="object" ID="{27D4849F-A7B6-412F-AB01-8DF8AF19D906}" ShortID="702900639">
+					<ChildrenList>
+						<Event Name="Play_obj_map_close" ID="{C07917FC-E963-4631-9CE1-1CE815254AE7}">
+							<ChildrenList>
+								<Action Name="" ID="{1DB408B2-A363-482B-A13A-FA380CAD8634}" ShortID="675386483">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="obj_map_close" ID="{A3519C78-F569-4364-BA9F-4EC9E75CA105}" WorkUnitID="{066CCC41-E2E7-4730-98CB-2FB912E512B9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_obj_map_open" ID="{5B6CE57D-37CA-43B6-9C0F-99583D8976C5}">
+							<ChildrenList>
+								<Action Name="" ID="{F8DE5E39-1CAA-4C4C-B132-5DD03A375C23}" ShortID="736181643">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="obj_map_open" ID="{0DE64EF6-B4CF-4309-ABE2-F0B0D3C47F35}" WorkUnitID="{066CCC41-E2E7-4730-98CB-2FB912E512B9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_obj_ship_wheel_stop" ID="{36480C78-77D1-458D-90AF-2E1939545B7C}">
+							<ChildrenList>
+								<Action Name="" ID="{160A0C80-4682-477E-9B95-48A76A239862}" ShortID="859081745">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="obj_ship_wheel_stop" ID="{C4129029-25C6-4383-AD5E-1C5ABA41526A}" WorkUnitID="{6C562367-C2C3-44C4-8BA5-3AE3FBCBFC7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF747B67-126F-4475-B83A-BF1EE7B7145B}" ShortID="524510255">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.7">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{084F3A98-0BC0-47F6-952E-771F50F726D4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.1"/>
+															<Property Name="Min" Type="Real64" Value="-0.1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="obj_ship_wheel_start" ID="{AF0DB395-EA39-4FDC-A5DB-42257634D71A}" WorkUnitID="{6C562367-C2C3-44C4-8BA5-3AE3FBCBFC7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_obj_ship_wheel_start" ID="{89098A17-4970-4E59-BDDB-77D72A34F251}">
+							<ChildrenList>
+								<Action Name="" ID="{94754CD7-D68A-4507-9AAA-4C991B611ACB}" ShortID="9300763">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="obj_ship_wheel_start" ID="{AF0DB395-EA39-4FDC-A5DB-42257634D71A}" WorkUnitID="{6C562367-C2C3-44C4-8BA5-3AE3FBCBFC7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="character" ID="{6AFDEED8-81CF-46BC-A8C3-D5D824F5B9A8}" ShortID="672180223">
+					<ChildrenList>
+						<Folder Name="player" ID="{AA435BD2-322A-4FBE-9387-580F1A4F39FA}" ShortID="395811842">
+							<ChildrenList>
+								<Event Name="Play_c_player_fol_grab" ID="{28F3999B-59A8-4E08-8E47-BCD311522086}">
+									<ChildrenList>
+										<Action Name="" ID="{EC30E75F-D627-4149-9485-96A647D305A2}" ShortID="669780932">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_player_fol_grab" ID="{C7B21FD9-E32D-4432-8519-F0DA98C8464E}" WorkUnitID="{B141AA21-D2B3-4214-BB50-BADA41418F48}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="magpie" ID="{27CB025C-6007-4C1C-8781-C289E378BB31}" ShortID="596200830">
+							<ChildrenList>
+								<Event Name="Play_c_magpie_voc_idle" ID="{0F6ABB4B-59E4-4B17-B2E4-0F0867905FCD}">
+									<ChildrenList>
+										<Action Name="" ID="{C2E86F34-B07B-40EF-985F-FB5538B5FA43}" ShortID="275185661">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_magpie_voc_idle" ID="{C507A5BA-FBFB-48AD-AEBD-366881BDEB6F}" WorkUnitID="{5F4C693C-4581-472C-A712-37678DCB42A8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_c_magpie_voc_cry" ID="{D6979C43-2CD5-4F4C-943B-7259520B1E08}">
+									<ChildrenList>
+										<Action Name="" ID="{FC0F12BA-DBBE-4988-A67B-A25958C9E121}" ShortID="975309060">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_magpie_voc_cry" ID="{1390C07A-B5DE-46E6-A848-7FE4BEA1E897}" WorkUnitID="{5F4C693C-4581-472C-A712-37678DCB42A8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{328A0EAF-03F1-4FE5-87FB-C9EB342AF6F4}" ShortID="753424555">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.075">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C80B170B-B1B8-4E60-AD60-6B7847B7B9CD}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PauseDelayedResumeAction" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_magpie_voc_idle" ID="{C507A5BA-FBFB-48AD-AEBD-366881BDEB6F}" WorkUnitID="{5F4C693C-4581-472C-A712-37678DCB42A8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5FD44421-69CA-4F2D-9AAB-4CC7B78FBDB2}" ShortID="877114244">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+												<Property Name="Delay" Type="Real64" Value="0.6"/>
+												<Property Name="FadeInCurve" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.16"/>
+												<Property Name="PauseDelayedResumeAction" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_magpie_voc_idle" ID="{C507A5BA-FBFB-48AD-AEBD-366881BDEB6F}" WorkUnitID="{5F4C693C-4581-472C-A712-37678DCB42A8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="evil_pelican" ID="{26FAA7EF-E6D5-4DA5-9400-17B11E652BB9}" ShortID="991024382">
+							<ChildrenList>
+								<Event Name="Play_c_evil_pelican_voc_cry" ID="{9DBAF0F8-D067-4CFD-AAB9-278917D28EA1}">
+									<ChildrenList>
+										<Action Name="" ID="{81920524-53A9-4EA0-8268-BFA6A75FFAC7}" ShortID="586806144">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="c_evil_pelican_voc_cry" ID="{E6CD3823-33EA-4CEC-A23B-F79142F898DF}" WorkUnitID="{AB6DA21A-4882-4363-8C37-54D15D37099F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

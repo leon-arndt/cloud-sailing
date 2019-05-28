@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\amb_creature.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\amb_sail.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\amb_ship_wood.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\amb_thunder.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\amb_wind.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\ambience\amb_creature.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\ambience\amb_sail.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\ambience\amb_ship_wood.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\ambience\amb_thunder.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\ambience\amb_wind.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\character\c_evil_pelican.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\character\c_magpie.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\character\c_player.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\env_tool_harpoon.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\object\obj_harpoon.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\object\obj_map.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Actor-Mixer Hierarchy\object\obj_ship_wheel.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\CloudSailing_WwiseProject.Leon.wsettings" DateLow="1558001528" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\CloudSailing_WwiseProject.wproj" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Effects\Factory Effects.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Events\Default Work Unit.wwu" DateLow="1557907424" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1557133402" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1557133404" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1557907430" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1557133404" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1557133404" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Queries\Factory Queries.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1557501288" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1557907515" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\States\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Leon\Perforce\stlearnd_cloud_laptop\CloudSailing\CloudSailing_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1557133421" DateHigh="0"/>
+</ValidationCache>
